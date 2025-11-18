@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "BanDongHo.Controllers.WatchesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Watches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanDongHo.Controllers.WatchesController",
+    "Method": "Create",
+    "RelativePath": "api/Watches",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "watchDto",
+        "Type": "BanDongHo.DTOs.WatchDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanDongHo.Controllers.WatchesController",
+    "Method": "GetById",
+    "RelativePath": "api/Watches/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanDongHo.Controllers.WatchesController",
+    "Method": "Update",
+    "RelativePath": "api/Watches/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "watchDto",
+        "Type": "BanDongHo.DTOs.WatchDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanDongHo.Controllers.WatchesController",
+    "Method": "Delete",
+    "RelativePath": "api/Watches/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

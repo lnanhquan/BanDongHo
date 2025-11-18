@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|c:\\users\\admin\\documents\\github\\bandongho\\bandongho\\bandongho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|c:\\users\\admin\\documents\\github\\bandongho\\bandongho\\bandongho\\services\\watchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\services\\watchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|c:\\users\\admin\\documents\\github\\bandongho\\bandongho\\bandongho\\controllers\\watchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\controllers\\watchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|c:\\users\\admin\\documents\\github\\bandongho\\bandongho\\bandongho\\repositories\\watchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\repositories\\watchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|c:\\users\\admin\\documents\\github\\bandongho\\bandongho\\bandongho\\repositories\\iwatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\repositories\\iwatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|c:\\users\\admin\\documents\\github\\bandongho\\bandongho\\bandongho\\models\\watch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{854EB33C-9652-4D65-81F1-4445DAD3002D}|BanDongHo\\BanDongHo.csproj|solutionrelative:bandongho\\models\\watch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,25 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Program.cs",
-              "RelativeDocumentMoniker": "BanDongHo\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Program.cs",
-              "RelativeToolTip": "BanDongHo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T07:35:13.979Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Watch.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Models\\Watch.cs",
+              "RelativeDocumentMoniker": "BanDongHo\\Models\\Watch.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Models\\Watch.cs",
+              "RelativeToolTip": "BanDongHo\\Models\\Watch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:55:05.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IWatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Repositories\\IWatchRepository.cs",
+              "RelativeDocumentMoniker": "BanDongHo\\Repositories\\IWatchRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Repositories\\IWatchRepository.cs",
+              "RelativeToolTip": "BanDongHo\\Repositories\\IWatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:51:41.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Repositories\\WatchRepository.cs",
+              "RelativeDocumentMoniker": "BanDongHo\\Repositories\\WatchRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Repositories\\WatchRepository.cs",
+              "RelativeToolTip": "BanDongHo\\Repositories\\WatchRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA0wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:08:28.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WatchService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Services\\WatchService.cs",
+              "RelativeDocumentMoniker": "BanDongHo\\Services\\WatchService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Services\\WatchService.cs",
+              "RelativeToolTip": "BanDongHo\\Services\\WatchService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwEAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:53:12.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Controllers\\WatchesController.cs",
+              "RelativeDocumentMoniker": "BanDongHo\\Controllers\\WatchesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\BanDongHo\\BanDongHo\\BanDongHo\\Controllers\\WatchesController.cs",
+              "RelativeToolTip": "BanDongHo\\Controllers\\WatchesController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:11:41.387Z",
+              "EditorCaption": ""
             }
           ]
         }
