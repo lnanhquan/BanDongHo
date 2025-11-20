@@ -1,4 +1,5 @@
-﻿using BanDongHo.Models;
+﻿using BanDongHo.DTOs;
+using BanDongHo.Models;
 
 namespace BanDongHo.Services
 {
@@ -6,8 +7,10 @@ namespace BanDongHo.Services
     {
         Task<IEnumerable<Watch>> GetAllAsync();
         Task<Watch?> GetByIdAsync(Guid id);
-        Task CreateAsync(Watch watch);
-        Task<bool> UpdateAsync(Guid id, Watch watch);
+        Task<Watch> CreateAsync(WatchDTO dto);
+        Task<bool> UpdateAsync(Guid id, WatchDTO dto);
         Task<bool> DeleteAsync(Guid id);
+
+        Task<Watch?> GetByNameAsync(string name);
     }
 }

@@ -1,5 +1,7 @@
-﻿using BanDongHo.Models;
+﻿using BanDongHo.DTOs;
+using BanDongHo.Models;
 using BanDongHo.Repositories;
+using Microsoft.AspNetCore.Mvc;
 using Serilog;
 
 namespace BanDongHo.Services
@@ -53,19 +55,42 @@ namespace BanDongHo.Services
             }
         }
 
-        public async Task CreateAsync(Watch watch)
+        public async Task<Watch> CreateAsync(WatchDTO dto)
         {
             try
             {
-                var exists = await _repo.GetByNameAsync(watch.Name);
+                var exists = await _repo.GetByNameAsync(dto.Name);
                 if (exists != null)
                 {
-                    _logger.LogWarning("Create: Watch with name {Name} already exists", watch.Name);
-                    throw new InvalidOperationException($"Watch with name '{watch.Name}' already exists.");
+                    _logger.LogWarning("Create: Watch with name {Name} already exists", dto.Name);
+                    throw new InvalidOperationException($"Watch with name '{dto.Name}' already exists.");
                 }
+
+                string imageUrl = null;
+
+                if (dto.ImageFile != null && dto.ImageFile.Length > 0)
+                {
+                    var fileName = $"{Guid.NewGuid()}{Path.GetExtension(dto.ImageFile.FileName)}";
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images", "Watches", fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await dto.ImageFile.CopyToAsync(stream);
+                    }
+
+                    imageUrl = $"/Images/Watches/{fileName}";
+                }
+
+                var watch = new Watch
+                {
+                    Name = dto.Name,
+                    Price = dto.Price,
+                    ImageUrl = imageUrl
+                };
 
                 await _repo.CreateAsync(watch);
                 _logger.LogInformation("Created new watch {Name} with ID {Id}", watch.Name, watch.Id);
+                return watch;
             }
             catch (Exception ex)
             {
@@ -74,7 +99,7 @@ namespace BanDongHo.Services
             }
         }
 
-        public async Task<bool> UpdateAsync(Guid id, Watch watch)
+        public async Task<bool> UpdateAsync(Guid id, WatchDTO dto)
         {
             try
             {
@@ -84,15 +109,39 @@ namespace BanDongHo.Services
                     _logger.LogWarning("Update: Watch with ID {Id} not found", id);
                     return false;
                 }
-                var otherWatch = await _repo.GetByNameAsync(watch.Name);
+                var otherWatch = await _repo.GetByNameAsync(dto.Name);
                 if (otherWatch != null && otherWatch.Id != id)
                 {
-                    _logger.LogWarning("Update: Watch with name {Name} already exists", watch.Name);
-                    throw new InvalidOperationException($"Watch with name '{watch.Name}' already exists.");
+                    _logger.LogWarning("Update: Watch with name {Name} already exists", dto.Name);
+                    throw new InvalidOperationException($"Watch with name '{dto.Name}' already exists.");
                 }
-                existingWatch.Name = watch.Name;
-                existingWatch.Price = watch.Price;
-                existingWatch.ImageUrl = watch.ImageUrl;
+
+                string imageUrl = existingWatch.ImageUrl;
+
+                if (dto.ImageFile != null && dto.ImageFile.Length > 0)
+                {
+                    if (!string.IsNullOrEmpty(existingWatch.ImageUrl))
+                    {
+                        var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot", "Images", "Watches", Path.GetFileName(existingWatch.ImageUrl));
+                        if (System.IO.File.Exists(oldFilePath))
+                            System.IO.File.Delete(oldFilePath);
+                    }
+
+                    var fileName = $"{Guid.NewGuid()}{Path.GetExtension(dto.ImageFile.FileName)}";
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images", "Watches", fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await dto.ImageFile.CopyToAsync(stream);
+                    }
+
+                    imageUrl = $"/Images/Watches/{fileName}";
+                }
+
+                existingWatch.Name = dto.Name;
+                existingWatch.Price = dto.Price;
+                existingWatch.ImageUrl = imageUrl;
+
                 await _repo.UpdateAsync(existingWatch);
                 _logger.LogInformation("Updated watch {Name} with ID {Id}", existingWatch.Name, existingWatch.Id);
                 return true;
@@ -114,6 +163,26 @@ namespace BanDongHo.Services
                     _logger.LogWarning("Delete: Watch with ID {Id} not found", id);
                     return false;
                 }
+
+                if (!string.IsNullOrEmpty(existingWatch.ImageUrl))
+                {
+                    var fileName = Path.GetFileName(existingWatch.ImageUrl);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images", "Watches", fileName);
+
+                    if (System.IO.File.Exists(filePath))
+                    {
+                        try
+                        {
+                            System.IO.File.Delete(filePath);
+                            _logger.LogInformation("Deleted image file: {FilePath}", filePath);
+                        }
+                        catch (Exception ex)
+                        {
+                            _logger.LogWarning(ex, "Failed to delete image file: {FilePath}", filePath);
+                        }
+                    }
+                }
+
                 await _repo.DeleteAsync(id);
                 _logger.LogInformation("Deleted watch with ID {Id}", id);
                 return true;
@@ -124,5 +193,29 @@ namespace BanDongHo.Services
                 throw;
             }
         }
+
+        public async Task<Watch?> GetByNameAsync(string name)
+        {
+            try
+            {
+                var watch = await _repo.GetByNameAsync(name);
+
+                if (watch == null)
+                {
+                    _logger.LogWarning("GetById: Watch with name {Name} not found", name);
+                }
+                else
+                {
+                    _logger.LogInformation("GetById: Found watch with name {Name}", name);
+                }
+                return watch;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("{ExceptionType} - {Message}", ex.GetType().Name, ex.Message);
+                throw;
+            }
+        }
+
     }
 }

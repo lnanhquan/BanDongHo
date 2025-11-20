@@ -1,0 +1,790 @@
+2025-11-19 08:47:20.699 +07:00 [INF] Retrieving all watches
+2025-11-19 08:47:20.912 +07:00 [INF] Retrieving all watches
+2025-11-19 08:47:21.152 +07:00 [INF] Retrieving all watches
+2025-11-19 08:47:23.434 +07:00 [INF] Retrieving all watches
+2025-11-19 08:47:24.916 +07:00 [INF] Retrieving all watches
+2025-11-19 08:47:25.979 +07:00 [INF] Retrieving all watches
+2025-11-19 08:48:11.849 +07:00 [INF] Retrieving all watches
+2025-11-19 08:56:18.370 +07:00 [INF] Retrieving all watches
+2025-11-19 08:56:46.987 +07:00 [INF] Retrieving all watches
+2025-11-19 08:58:09.623 +07:00 [INF] Retrieving all watches
+2025-11-19 08:58:17.671 +07:00 [INF] Retrieving all watches
+2025-11-19 08:58:40.358 +07:00 [INF] Retrieving all watches
+2025-11-19 08:59:19.393 +07:00 [INF] Retrieving all watches
+2025-11-19 08:59:46.301 +07:00 [INF] Retrieving all watches
+2025-11-19 08:59:49.235 +07:00 [INF] Retrieving all watches
+2025-11-19 08:59:49.759 +07:00 [INF] Retrieving all watches
+2025-11-19 08:59:50.157 +07:00 [INF] Retrieving all watches
+2025-11-19 08:59:50.524 +07:00 [INF] Retrieving all watches
+2025-11-19 08:59:50.836 +07:00 [INF] Retrieving all watches
+2025-11-19 08:59:51.155 +07:00 [INF] Retrieving all watches
+2025-11-19 09:00:19.425 +07:00 [INF] Retrieving all watches
+2025-11-19 09:00:42.053 +07:00 [INF] Retrieving all watches
+2025-11-19 09:00:44.226 +07:00 [INF] Retrieving all watches
+2025-11-19 09:00:50.059 +07:00 [INF] Retrieving all watches
+2025-11-19 09:01:00.721 +07:00 [INF] Retrieving all watches
+2025-11-19 09:02:49.330 +07:00 [INF] Retrieving all watches
+2025-11-19 09:03:30.301 +07:00 [INF] Retrieving all watches
+2025-11-19 09:03:31.688 +07:00 [INF] Retrieving all watches
+2025-11-19 09:04:10.817 +07:00 [INF] Retrieving all watches
+2025-11-19 09:04:37.300 +07:00 [INF] Retrieving all watches
+2025-11-19 09:04:45.829 +07:00 [INF] Retrieving all watches
+2025-11-19 09:05:38.458 +07:00 [INF] Retrieving all watches
+2025-11-19 09:06:05.661 +07:00 [INF] Retrieving all watches
+2025-11-19 09:06:58.981 +07:00 [INF] Retrieving all watches
+2025-11-19 09:07:05.377 +07:00 [INF] Retrieving all watches
+2025-11-19 09:08:32.440 +07:00 [INF] Retrieving all watches
+2025-11-19 09:09:51.400 +07:00 [INF] Retrieving all watches
+2025-11-19 09:10:18.550 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:10:18.604 +07:00 [INF] Retrieving all watches
+2025-11-19 09:10:33.929 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-19 09:10:33.938 +07:00 [INF] Retrieving all watches
+2025-11-19 09:11:16.203 +07:00 [INF] Retrieving all watches
+2025-11-19 09:13:08.469 +07:00 [INF] Retrieving all watches
+2025-11-19 09:13:11.012 +07:00 [INF] Retrieving all watches
+2025-11-19 09:13:15.106 +07:00 [INF] Retrieving all watches
+2025-11-19 09:13:41.900 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:13:41.915 +07:00 [INF] Retrieving all watches
+2025-11-19 09:14:04.248 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:14:04.258 +07:00 [INF] Retrieving all watches
+2025-11-19 09:14:07.646 +07:00 [INF] Retrieving all watches
+2025-11-19 09:14:09.367 +07:00 [INF] Retrieving all watches
+2025-11-19 09:14:34.632 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-19 09:14:34.645 +07:00 [INF] Retrieving all watches
+2025-11-19 09:17:50.055 +07:00 [INF] Retrieving all watches
+2025-11-19 09:21:48.378 +07:00 [INF] Retrieving all watches
+2025-11-19 09:22:00.812 +07:00 [INF] Retrieving all watches
+2025-11-19 09:22:03.243 +07:00 [INF] Retrieving all watches
+2025-11-19 09:22:08.838 +07:00 [INF] Retrieving all watches
+2025-11-19 09:22:20.364 +07:00 [INF] Retrieving all watches
+2025-11-19 09:23:16.299 +07:00 [INF] Retrieving all watches
+2025-11-19 09:23:22.383 +07:00 [INF] Retrieving all watches
+2025-11-19 09:23:46.738 +07:00 [INF] Retrieving all watches
+2025-11-19 09:23:55.533 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:10.399 +07:00 [WRN] Login failed for user@gmail.com: Invalid password
+2025-11-19 09:24:17.406 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-19 09:24:17.418 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:36.462 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:24:36.471 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:38.207 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:38.984 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:39.608 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:40.041 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:40.458 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:40.621 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:40.789 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:40.954 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:41.181 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:41.685 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:42.279 +07:00 [INF] Retrieving all watches
+2025-11-19 09:24:47.462 +07:00 [INF] Retrieving all watches
+2025-11-19 09:25:13.222 +07:00 [INF] Retrieving all watches
+2025-11-19 09:25:25.843 +07:00 [INF] Retrieving all watches
+2025-11-19 09:26:02.842 +07:00 [INF] Retrieving all watches
+2025-11-19 09:28:15.197 +07:00 [INF] Retrieving all watches
+2025-11-19 09:28:40.671 +07:00 [INF] Retrieving all watches
+2025-11-19 09:28:49.271 +07:00 [INF] Retrieving all watches
+2025-11-19 09:29:06.401 +07:00 [INF] Retrieving all watches
+2025-11-19 09:29:12.397 +07:00 [INF] Retrieving all watches
+2025-11-19 09:29:28.794 +07:00 [INF] Retrieving all watches
+2025-11-19 09:30:30.024 +07:00 [INF] Retrieving all watches
+2025-11-19 09:31:57.349 +07:00 [INF] Retrieving all watches
+2025-11-19 09:32:26.262 +07:00 [INF] Retrieving all watches
+2025-11-19 09:32:37.958 +07:00 [INF] Retrieving all watches
+2025-11-19 09:32:49.173 +07:00 [INF] Retrieving all watches
+2025-11-19 09:33:00.199 +07:00 [INF] Retrieving all watches
+2025-11-19 09:33:20.215 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:33:20.231 +07:00 [INF] Retrieving all watches
+2025-11-19 09:34:07.185 +07:00 [INF] Retrieving all watches
+2025-11-19 09:34:18.876 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:34:18.886 +07:00 [INF] Retrieving all watches
+2025-11-19 09:34:43.030 +07:00 [INF] Retrieving all watches
+2025-11-19 09:34:45.896 +07:00 [INF] Retrieving all watches
+2025-11-19 09:34:48.382 +07:00 [INF] Retrieving all watches
+2025-11-19 09:34:51.106 +07:00 [INF] Retrieving all watches
+2025-11-19 09:34:59.154 +07:00 [INF] Retrieving all watches
+2025-11-19 09:36:29.530 +07:00 [INF] Retrieving all watches
+2025-11-19 09:36:49.506 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:36:49.517 +07:00 [INF] Retrieving all watches
+2025-11-19 09:38:23.258 +07:00 [INF] Retrieving all watches
+2025-11-19 09:38:44.307 +07:00 [WRN] Login failed for admin@gmail.com: Invalid password
+2025-11-19 09:38:51.981 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:38:51.990 +07:00 [INF] Retrieving all watches
+2025-11-19 09:40:00.200 +07:00 [INF] Retrieving all watches
+2025-11-19 09:41:22.825 +07:00 [INF] Retrieving all watches
+2025-11-19 09:41:36.020 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 09:41:36.039 +07:00 [INF] Retrieving all watches
+2025-11-19 09:41:43.714 +07:00 [INF] Retrieving all watches
+2025-11-19 09:45:22.289 +07:00 [INF] Retrieving all watches
+2025-11-19 09:45:38.755 +07:00 [INF] Retrieving all watches
+2025-11-19 09:45:44.826 +07:00 [INF] Retrieving all watches
+2025-11-19 09:45:46.314 +07:00 [INF] Retrieving all watches
+2025-11-19 09:45:46.487 +07:00 [INF] Retrieving all watches
+2025-11-19 09:46:36.210 +07:00 [INF] Retrieving all watches
+2025-11-19 09:46:48.178 +07:00 [INF] Retrieving all watches
+2025-11-19 09:46:56.691 +07:00 [INF] Retrieving all watches
+2025-11-19 09:46:57.517 +07:00 [INF] Retrieving all watches
+2025-11-19 09:47:07.486 +07:00 [INF] Retrieving all watches
+2025-11-19 09:55:25.031 +07:00 [INF] Retrieving all watches
+2025-11-19 09:55:36.930 +07:00 [INF] Retrieving all watches
+2025-11-19 09:56:34.584 +07:00 [INF] Retrieving all watches
+2025-11-19 09:56:46.605 +07:00 [INF] Retrieving all watches
+2025-11-19 09:59:07.304 +07:00 [INF] Retrieving all watches
+2025-11-19 09:59:18.157 +07:00 [INF] Retrieving all watches
+2025-11-19 10:05:02.698 +07:00 [INF] Retrieving all watches
+2025-11-19 10:05:27.952 +07:00 [INF] Retrieving all watches
+2025-11-19 10:05:32.274 +07:00 [INF] Retrieving all watches
+2025-11-19 10:06:11.831 +07:00 [INF] Retrieving all watches
+2025-11-19 10:07:43.724 +07:00 [INF] Retrieving all watches
+2025-11-19 10:09:30.872 +07:00 [INF] Retrieving all watches
+2025-11-19 10:11:01.428 +07:00 [INF] Retrieving all watches
+2025-11-19 10:11:28.696 +07:00 [INF] Retrieving all watches
+2025-11-19 10:11:39.635 +07:00 [INF] Retrieving all watches
+2025-11-19 10:13:59.516 +07:00 [INF] Retrieving all watches
+2025-11-19 10:14:15.846 +07:00 [INF] Retrieving all watches
+2025-11-19 10:14:29.869 +07:00 [INF] Retrieving all watches
+2025-11-19 10:14:41.471 +07:00 [INF] Retrieving all watches
+2025-11-19 10:15:13.053 +07:00 [INF] Retrieving all watches
+2025-11-19 10:15:49.235 +07:00 [INF] Retrieving all watches
+2025-11-19 10:16:38.226 +07:00 [INF] Retrieving all watches
+2025-11-19 10:20:45.822 +07:00 [INF] Retrieving all watches
+2025-11-19 10:26:41.051 +07:00 [INF] Retrieving all watches
+2025-11-19 10:28:07.514 +07:00 [INF] Retrieving all watches
+2025-11-19 11:23:28.824 +07:00 [INF] Retrieving all watches
+2025-11-19 13:21:59.360 +07:00 [INF] Retrieving all watches
+2025-11-19 13:22:03.529 +07:00 [INF] Retrieving all watches
+2025-11-19 13:22:07.525 +07:00 [INF] Retrieving all watches
+2025-11-19 13:22:21.965 +07:00 [INF] Retrieving all watches
+2025-11-19 13:22:36.975 +07:00 [INF] Retrieving all watches
+2025-11-19 13:22:40.055 +07:00 [INF] Retrieving all watches
+2025-11-19 13:23:08.883 +07:00 [INF] Retrieving all watches
+2025-11-19 13:23:08.896 +07:00 [INF] Retrieving all watches
+2025-11-19 13:23:41.895 +07:00 [INF] Retrieving all watches
+2025-11-19 13:23:41.903 +07:00 [INF] Retrieving all watches
+2025-11-19 13:23:53.306 +07:00 [INF] Retrieving all watches
+2025-11-19 13:23:53.311 +07:00 [INF] Retrieving all watches
+2025-11-19 13:23:56.367 +07:00 [INF] Retrieving all watches
+2025-11-19 13:23:56.374 +07:00 [INF] Retrieving all watches
+2025-11-19 13:24:42.126 +07:00 [INF] Retrieving all watches
+2025-11-19 13:24:42.135 +07:00 [INF] Retrieving all watches
+2025-11-19 13:25:08.444 +07:00 [INF] Retrieving all watches
+2025-11-19 13:25:08.451 +07:00 [INF] Retrieving all watches
+2025-11-19 13:25:13.603 +07:00 [INF] Retrieving all watches
+2025-11-19 13:25:13.609 +07:00 [INF] Retrieving all watches
+2025-11-19 13:26:10.875 +07:00 [INF] Retrieving all watches
+2025-11-19 13:26:10.888 +07:00 [INF] Retrieving all watches
+2025-11-19 13:27:08.998 +07:00 [INF] Retrieving all watches
+2025-11-19 13:27:09.008 +07:00 [INF] Retrieving all watches
+2025-11-19 13:27:18.826 +07:00 [INF] Retrieving all watches
+2025-11-19 13:27:18.833 +07:00 [INF] Retrieving all watches
+2025-11-19 13:27:21.526 +07:00 [INF] Retrieving all watches
+2025-11-19 13:27:21.532 +07:00 [INF] Retrieving all watches
+2025-11-19 13:27:48.010 +07:00 [INF] Retrieving all watches
+2025-11-19 13:27:48.026 +07:00 [INF] Retrieving all watches
+2025-11-19 13:28:11.657 +07:00 [INF] Retrieving all watches
+2025-11-19 13:28:11.663 +07:00 [INF] Retrieving all watches
+2025-11-19 13:28:22.378 +07:00 [INF] Retrieving all watches
+2025-11-19 13:28:22.387 +07:00 [INF] Retrieving all watches
+2025-11-19 13:28:22.562 +07:00 [INF] Retrieving all watches
+2025-11-19 13:28:22.570 +07:00 [INF] Retrieving all watches
+2025-11-19 13:28:30.828 +07:00 [INF] Retrieving all watches
+2025-11-19 13:28:30.837 +07:00 [INF] Retrieving all watches
+2025-11-19 13:29:05.353 +07:00 [INF] Retrieving all watches
+2025-11-19 13:29:05.364 +07:00 [INF] Retrieving all watches
+2025-11-19 13:32:33.268 +07:00 [INF] Retrieving all watches
+2025-11-19 13:37:07.050 +07:00 [INF] Retrieving all watches
+2025-11-19 13:38:37.512 +07:00 [INF] Retrieving all watches
+2025-11-19 13:38:44.238 +07:00 [INF] Retrieving all watches
+2025-11-19 13:38:57.724 +07:00 [INF] Retrieving all watches
+2025-11-19 13:40:48.023 +07:00 [INF] Retrieving all watches
+2025-11-19 13:40:48.034 +07:00 [INF] Retrieving all watches
+2025-11-19 13:40:57.754 +07:00 [INF] Retrieving all watches
+2025-11-19 13:40:57.760 +07:00 [INF] Retrieving all watches
+2025-11-19 13:40:58.949 +07:00 [INF] Retrieving all watches
+2025-11-19 13:40:58.957 +07:00 [INF] Retrieving all watches
+2025-11-19 13:41:12.758 +07:00 [INF] Retrieving all watches
+2025-11-19 13:41:12.764 +07:00 [INF] Retrieving all watches
+2025-11-19 13:42:26.999 +07:00 [INF] Retrieving all watches
+2025-11-19 13:42:27.010 +07:00 [INF] Retrieving all watches
+2025-11-19 13:42:51.279 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 13:42:51.313 +07:00 [INF] Retrieving all watches
+2025-11-19 13:42:58.776 +07:00 [INF] Retrieving all watches
+2025-11-19 13:42:58.787 +07:00 [INF] Retrieving all watches
+2025-11-19 13:43:39.508 +07:00 [INF] Retrieving all watches
+2025-11-19 13:43:39.517 +07:00 [INF] Retrieving all watches
+2025-11-19 13:43:54.574 +07:00 [INF] Retrieving all watches
+2025-11-19 13:43:54.577 +07:00 [INF] Retrieving all watches
+2025-11-19 13:44:25.435 +07:00 [INF] Retrieving all watches
+2025-11-19 13:44:25.440 +07:00 [INF] Retrieving all watches
+2025-11-19 13:44:40.286 +07:00 [INF] Retrieving all watches
+2025-11-19 13:44:40.294 +07:00 [INF] Retrieving all watches
+2025-11-19 13:44:44.900 +07:00 [INF] Retrieving all watches
+2025-11-19 13:44:44.908 +07:00 [INF] Retrieving all watches
+2025-11-19 13:45:17.760 +07:00 [INF] Retrieving all watches
+2025-11-19 13:45:17.775 +07:00 [INF] Retrieving all watches
+2025-11-19 13:46:00.332 +07:00 [INF] Retrieving all watches
+2025-11-19 13:46:00.344 +07:00 [INF] Retrieving all watches
+2025-11-19 13:46:06.488 +07:00 [INF] Retrieving all watches
+2025-11-19 13:46:06.492 +07:00 [INF] Retrieving all watches
+2025-11-19 13:46:57.629 +07:00 [INF] Retrieving all watches
+2025-11-19 13:47:06.032 +07:00 [INF] Retrieving all watches
+2025-11-19 13:47:14.808 +07:00 [INF] Retrieving all watches
+2025-11-19 13:47:14.812 +07:00 [INF] Retrieving all watches
+2025-11-19 13:48:40.069 +07:00 [INF] Retrieving all watches
+2025-11-19 13:48:40.079 +07:00 [INF] Retrieving all watches
+2025-11-19 13:49:05.148 +07:00 [INF] Retrieving all watches
+2025-11-19 13:49:05.159 +07:00 [INF] Retrieving all watches
+2025-11-19 13:49:12.583 +07:00 [INF] Retrieving all watches
+2025-11-19 13:49:12.589 +07:00 [INF] Retrieving all watches
+2025-11-19 13:50:03.274 +07:00 [INF] Retrieving all watches
+2025-11-19 13:50:03.284 +07:00 [INF] Retrieving all watches
+2025-11-19 13:52:04.276 +07:00 [INF] Retrieving all watches
+2025-11-19 13:52:04.287 +07:00 [INF] Retrieving all watches
+2025-11-19 13:52:12.599 +07:00 [INF] Retrieving all watches
+2025-11-19 13:52:46.600 +07:00 [INF] Retrieving all watches
+2025-11-19 13:53:09.379 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-19 13:53:09.394 +07:00 [INF] Retrieving all watches
+2025-11-19 13:53:16.732 +07:00 [INF] Retrieving all watches
+2025-11-19 13:54:18.141 +07:00 [INF] Retrieving all watches
+2025-11-19 13:54:35.195 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 13:54:35.207 +07:00 [INF] Retrieving all watches
+2025-11-19 13:54:38.519 +07:00 [INF] Retrieving all watches
+2025-11-19 13:54:38.525 +07:00 [INF] Retrieving all watches
+2025-11-19 13:54:42.778 +07:00 [INF] Retrieving all watches
+2025-11-19 13:55:34.002 +07:00 [INF] Retrieving all watches
+2025-11-19 13:56:08.470 +07:00 [INF] Retrieving all watches
+2025-11-19 13:56:19.180 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 13:56:19.191 +07:00 [INF] Retrieving all watches
+2025-11-19 13:56:22.613 +07:00 [INF] Retrieving all watches
+2025-11-19 13:56:22.616 +07:00 [INF] Retrieving all watches
+2025-11-19 13:56:59.929 +07:00 [INF] Retrieving all watches
+2025-11-19 13:56:59.932 +07:00 [INF] Retrieving all watches
+2025-11-19 13:57:09.171 +07:00 [INF] Retrieving all watches
+2025-11-19 13:57:09.177 +07:00 [INF] Retrieving all watches
+2025-11-19 13:57:12.550 +07:00 [INF] Retrieving all watches
+2025-11-19 13:57:12.556 +07:00 [INF] Retrieving all watches
+2025-11-19 13:57:50.698 +07:00 [INF] Retrieving all watches
+2025-11-19 13:57:50.703 +07:00 [INF] Retrieving all watches
+2025-11-19 13:58:21.309 +07:00 [INF] Retrieving all watches
+2025-11-19 13:58:21.318 +07:00 [INF] Retrieving all watches
+2025-11-19 13:58:43.603 +07:00 [INF] Retrieving all watches
+2025-11-19 13:58:43.613 +07:00 [INF] Retrieving all watches
+2025-11-19 13:59:29.692 +07:00 [INF] Retrieving all watches
+2025-11-19 13:59:29.707 +07:00 [INF] Retrieving all watches
+2025-11-19 14:01:43.471 +07:00 [INF] Retrieving all watches
+2025-11-19 14:01:43.479 +07:00 [INF] Retrieving all watches
+2025-11-19 14:02:03.739 +07:00 [INF] Retrieving all watches
+2025-11-19 14:02:03.743 +07:00 [INF] Retrieving all watches
+2025-11-19 14:03:38.679 +07:00 [INF] Retrieving all watches
+2025-11-19 14:03:38.687 +07:00 [INF] Retrieving all watches
+2025-11-19 14:04:22.760 +07:00 [INF] Retrieving all watches
+2025-11-19 14:04:22.767 +07:00 [INF] Retrieving all watches
+2025-11-19 14:05:13.725 +07:00 [INF] Retrieving all watches
+2025-11-19 14:05:13.733 +07:00 [INF] Retrieving all watches
+2025-11-19 14:07:19.050 +07:00 [INF] Retrieving all watches
+2025-11-19 14:07:19.057 +07:00 [INF] Retrieving all watches
+2025-11-19 14:07:34.860 +07:00 [INF] Retrieving all watches
+2025-11-19 14:07:34.865 +07:00 [INF] Retrieving all watches
+2025-11-19 14:08:17.532 +07:00 [INF] Retrieving all watches
+2025-11-19 14:08:17.536 +07:00 [INF] Retrieving all watches
+2025-11-19 14:08:33.260 +07:00 [INF] Retrieving all watches
+2025-11-19 14:08:33.263 +07:00 [INF] Retrieving all watches
+2025-11-19 14:08:59.870 +07:00 [INF] Retrieving all watches
+2025-11-19 14:08:59.874 +07:00 [INF] Retrieving all watches
+2025-11-19 14:09:01.541 +07:00 [INF] Retrieving all watches
+2025-11-19 14:09:01.545 +07:00 [INF] Retrieving all watches
+2025-11-19 14:10:08.793 +07:00 [INF] Retrieving all watches
+2025-11-19 14:10:08.797 +07:00 [INF] Retrieving all watches
+2025-11-19 14:11:58.132 +07:00 [INF] Retrieving all watches
+2025-11-19 14:11:58.140 +07:00 [INF] Retrieving all watches
+2025-11-19 14:13:52.300 +07:00 [INF] Retrieving all watches
+2025-11-19 14:13:52.306 +07:00 [INF] Retrieving all watches
+2025-11-19 14:14:02.068 +07:00 [INF] Retrieving all watches
+2025-11-19 14:14:02.074 +07:00 [INF] Retrieving all watches
+2025-11-19 14:14:35.423 +07:00 [INF] Retrieving all watches
+2025-11-19 14:14:35.433 +07:00 [INF] Retrieving all watches
+2025-11-19 14:15:08.965 +07:00 [INF] Retrieving all watches
+2025-11-19 14:15:08.969 +07:00 [INF] Retrieving all watches
+2025-11-19 14:16:01.957 +07:00 [INF] Retrieving all watches
+2025-11-19 14:16:01.963 +07:00 [INF] Retrieving all watches
+2025-11-19 14:16:05.032 +07:00 [INF] Retrieving all watches
+2025-11-19 14:16:05.039 +07:00 [INF] Retrieving all watches
+2025-11-19 14:16:58.431 +07:00 [INF] Retrieving all watches
+2025-11-19 14:16:58.435 +07:00 [INF] Retrieving all watches
+2025-11-19 14:17:09.634 +07:00 [INF] Retrieving all watches
+2025-11-19 14:17:09.640 +07:00 [INF] Retrieving all watches
+2025-11-19 14:17:26.558 +07:00 [INF] Retrieving all watches
+2025-11-19 14:17:26.563 +07:00 [INF] Retrieving all watches
+2025-11-19 14:17:27.806 +07:00 [INF] Retrieving all watches
+2025-11-19 14:17:27.811 +07:00 [INF] Retrieving all watches
+2025-11-19 14:18:10.917 +07:00 [INF] Retrieving all watches
+2025-11-19 14:18:10.923 +07:00 [INF] Retrieving all watches
+2025-11-19 14:19:02.182 +07:00 [INF] Retrieving all watches
+2025-11-19 14:19:02.200 +07:00 [INF] Retrieving all watches
+2025-11-19 14:19:50.461 +07:00 [INF] Retrieving all watches
+2025-11-19 14:19:50.466 +07:00 [INF] Retrieving all watches
+2025-11-19 14:19:53.797 +07:00 [INF] Retrieving all watches
+2025-11-19 14:19:53.801 +07:00 [INF] Retrieving all watches
+2025-11-19 14:20:04.958 +07:00 [INF] Retrieving all watches
+2025-11-19 14:20:04.961 +07:00 [INF] Retrieving all watches
+2025-11-19 14:21:00.704 +07:00 [INF] Retrieving all watches
+2025-11-19 14:21:00.714 +07:00 [INF] Retrieving all watches
+2025-11-19 14:22:00.331 +07:00 [INF] Retrieving all watches
+2025-11-19 14:22:00.369 +07:00 [INF] Retrieving all watches
+2025-11-19 14:22:32.208 +07:00 [INF] Retrieving all watches
+2025-11-19 14:22:32.217 +07:00 [INF] Retrieving all watches
+2025-11-19 14:22:58.813 +07:00 [INF] Retrieving all watches
+2025-11-19 14:22:58.821 +07:00 [INF] Retrieving all watches
+2025-11-19 14:23:18.624 +07:00 [INF] Retrieving all watches
+2025-11-19 14:23:18.628 +07:00 [INF] Retrieving all watches
+2025-11-19 14:23:35.020 +07:00 [INF] Retrieving all watches
+2025-11-19 14:23:35.025 +07:00 [INF] Retrieving all watches
+2025-11-19 14:24:05.198 +07:00 [INF] Retrieving all watches
+2025-11-19 14:24:05.206 +07:00 [INF] Retrieving all watches
+2025-11-19 14:24:16.481 +07:00 [INF] Retrieving all watches
+2025-11-19 14:24:16.484 +07:00 [INF] Retrieving all watches
+2025-11-19 14:24:30.607 +07:00 [INF] Retrieving all watches
+2025-11-19 14:24:30.611 +07:00 [INF] Retrieving all watches
+2025-11-19 14:24:35.982 +07:00 [INF] Retrieving all watches
+2025-11-19 14:24:35.987 +07:00 [INF] Retrieving all watches
+2025-11-19 14:25:18.278 +07:00 [INF] Retrieving all watches
+2025-11-19 14:25:18.281 +07:00 [INF] Retrieving all watches
+2025-11-19 14:25:55.056 +07:00 [INF] Retrieving all watches
+2025-11-19 14:25:55.061 +07:00 [INF] Retrieving all watches
+2025-11-19 14:26:43.757 +07:00 [INF] Retrieving all watches
+2025-11-19 14:26:43.767 +07:00 [INF] Retrieving all watches
+2025-11-19 14:27:39.473 +07:00 [INF] Retrieving all watches
+2025-11-19 14:27:39.482 +07:00 [INF] Retrieving all watches
+2025-11-19 14:28:09.659 +07:00 [INF] Retrieving all watches
+2025-11-19 14:28:09.663 +07:00 [INF] Retrieving all watches
+2025-11-19 14:28:24.187 +07:00 [INF] Retrieving all watches
+2025-11-19 14:28:24.193 +07:00 [INF] Retrieving all watches
+2025-11-19 14:28:39.934 +07:00 [INF] Retrieving all watches
+2025-11-19 14:28:39.938 +07:00 [INF] Retrieving all watches
+2025-11-19 14:30:16.849 +07:00 [INF] Retrieving all watches
+2025-11-19 14:30:16.856 +07:00 [INF] Retrieving all watches
+2025-11-19 14:30:33.601 +07:00 [INF] Retrieving all watches
+2025-11-19 14:30:33.606 +07:00 [INF] Retrieving all watches
+2025-11-19 14:32:39.307 +07:00 [INF] Retrieving all watches
+2025-11-19 14:32:39.315 +07:00 [INF] Retrieving all watches
+2025-11-19 14:32:59.527 +07:00 [INF] Retrieving all watches
+2025-11-19 14:32:59.540 +07:00 [INF] Retrieving all watches
+2025-11-19 14:33:36.899 +07:00 [INF] Retrieving all watches
+2025-11-19 14:33:36.908 +07:00 [INF] Retrieving all watches
+2025-11-19 14:33:53.238 +07:00 [INF] Retrieving all watches
+2025-11-19 14:33:53.244 +07:00 [INF] Retrieving all watches
+2025-11-19 14:34:26.894 +07:00 [INF] Retrieving all watches
+2025-11-19 14:34:26.902 +07:00 [INF] Retrieving all watches
+2025-11-19 14:35:15.625 +07:00 [INF] Retrieving all watches
+2025-11-19 14:35:15.632 +07:00 [INF] Retrieving all watches
+2025-11-19 14:35:57.318 +07:00 [INF] Retrieving all watches
+2025-11-19 14:35:57.328 +07:00 [INF] Retrieving all watches
+2025-11-19 14:36:01.649 +07:00 [INF] Retrieving all watches
+2025-11-19 14:36:01.653 +07:00 [INF] Retrieving all watches
+2025-11-19 14:36:30.758 +07:00 [INF] Retrieving all watches
+2025-11-19 14:36:30.763 +07:00 [INF] Retrieving all watches
+2025-11-19 14:36:31.908 +07:00 [INF] Retrieving all watches
+2025-11-19 14:36:31.912 +07:00 [INF] Retrieving all watches
+2025-11-19 14:36:48.693 +07:00 [INF] Retrieving all watches
+2025-11-19 14:36:48.698 +07:00 [INF] Retrieving all watches
+2025-11-19 14:39:08.452 +07:00 [INF] Retrieving all watches
+2025-11-19 14:39:08.462 +07:00 [INF] Retrieving all watches
+2025-11-19 14:39:37.728 +07:00 [INF] Retrieving all watches
+2025-11-19 14:39:37.732 +07:00 [INF] Retrieving all watches
+2025-11-19 14:40:02.563 +07:00 [INF] Retrieving all watches
+2025-11-19 14:40:02.571 +07:00 [INF] Retrieving all watches
+2025-11-19 14:42:02.888 +07:00 [INF] Retrieving all watches
+2025-11-19 14:42:02.896 +07:00 [INF] Retrieving all watches
+2025-11-19 14:42:13.780 +07:00 [INF] Retrieving all watches
+2025-11-19 14:42:13.784 +07:00 [INF] Retrieving all watches
+2025-11-19 14:44:02.581 +07:00 [INF] Retrieving all watches
+2025-11-19 14:44:02.590 +07:00 [INF] Retrieving all watches
+2025-11-19 14:44:10.382 +07:00 [INF] Retrieving all watches
+2025-11-19 14:44:10.386 +07:00 [INF] Retrieving all watches
+2025-11-19 14:44:55.462 +07:00 [INF] Retrieving all watches
+2025-11-19 14:44:55.465 +07:00 [INF] Retrieving all watches
+2025-11-19 14:45:55.958 +07:00 [INF] Retrieving all watches
+2025-11-19 14:45:55.966 +07:00 [INF] Retrieving all watches
+2025-11-19 14:47:09.563 +07:00 [INF] Retrieving all watches
+2025-11-19 14:47:09.593 +07:00 [INF] Retrieving all watches
+2025-11-19 14:47:16.673 +07:00 [INF] Retrieving all watches
+2025-11-19 14:47:16.677 +07:00 [INF] Retrieving all watches
+2025-11-19 14:48:23.242 +07:00 [INF] Retrieving all watches
+2025-11-19 14:48:23.253 +07:00 [INF] Retrieving all watches
+2025-11-19 14:50:31.276 +07:00 [INF] Retrieving all watches
+2025-11-19 14:50:31.281 +07:00 [INF] Retrieving all watches
+2025-11-19 14:51:49.937 +07:00 [INF] Retrieving all watches
+2025-11-19 14:51:49.944 +07:00 [INF] Retrieving all watches
+2025-11-19 14:52:39.660 +07:00 [INF] Retrieving all watches
+2025-11-19 14:52:39.667 +07:00 [INF] Retrieving all watches
+2025-11-19 14:53:10.519 +07:00 [INF] Retrieving all watches
+2025-11-19 14:53:10.524 +07:00 [INF] Retrieving all watches
+2025-11-19 14:53:52.654 +07:00 [INF] Retrieving all watches
+2025-11-19 14:53:52.658 +07:00 [INF] Retrieving all watches
+2025-11-19 14:56:24.426 +07:00 [INF] Retrieving all watches
+2025-11-19 14:56:24.435 +07:00 [INF] Retrieving all watches
+2025-11-19 14:56:58.891 +07:00 [INF] Retrieving all watches
+2025-11-19 14:57:22.768 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 14:57:22.780 +07:00 [INF] Retrieving all watches
+2025-11-19 14:57:27.983 +07:00 [INF] Retrieving all watches
+2025-11-19 14:57:27.987 +07:00 [INF] Retrieving all watches
+2025-11-19 15:01:00.681 +07:00 [INF] Retrieving all watches
+2025-11-19 15:01:00.685 +07:00 [INF] Retrieving all watches
+2025-11-19 15:02:18.107 +07:00 [INF] Retrieving all watches
+2025-11-19 15:02:18.112 +07:00 [INF] Retrieving all watches
+2025-11-19 15:03:15.771 +07:00 [INF] Retrieving all watches
+2025-11-19 15:03:17.589 +07:00 [INF] Retrieving all watches
+2025-11-19 15:03:17.595 +07:00 [INF] Retrieving all watches
+2025-11-19 15:04:20.778 +07:00 [INF] Created new watch SRWATCH SG88806.1106AT with ID "4585734a-abc1-4bad-9cb4-06c2cde997e3"
+2025-11-19 15:04:20.814 +07:00 [INF] Retrieving all watches
+2025-11-19 15:04:20.867 +07:00 [INF] Retrieving all watches
+2025-11-19 15:04:20.872 +07:00 [INF] Retrieving all watches
+2025-11-19 15:04:23.162 +07:00 [INF] Retrieving all watches
+2025-11-19 15:04:23.167 +07:00 [INF] Retrieving all watches
+2025-11-19 15:04:24.176 +07:00 [INF] Retrieving all watches
+2025-11-19 15:04:24.180 +07:00 [INF] Retrieving all watches
+2025-11-19 15:13:51.500 +07:00 [INF] Retrieving all watches
+2025-11-19 15:13:55.201 +07:00 [INF] Retrieving all watches
+2025-11-19 15:13:55.214 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:39.277 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1106AT not found
+2025-11-19 15:14:39.422 +07:00 [INF] Created new watch SRWATCH SG88806.1106AT with ID "303a1644-468f-4cf6-97bd-ec7324a20674"
+2025-11-19 15:14:39.448 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:39.501 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:39.507 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:39.947 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:39.952 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:41.800 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:41.807 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:42.820 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:42.827 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:43.863 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:43.870 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:44.903 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:44.910 +07:00 [INF] Retrieving all watches
+2025-11-19 15:14:59.854 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 15:17:32.869 +07:00 [INF] Retrieving all watches
+2025-11-19 15:17:32.876 +07:00 [INF] Retrieving all watches
+2025-11-19 15:17:41.865 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 15:18:13.006 +07:00 [INF] Retrieving all watches
+2025-11-19 15:18:26.867 +07:00 [INF] Retrieving all watches
+2025-11-19 15:18:26.872 +07:00 [INF] Retrieving all watches
+2025-11-19 15:18:30.432 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 15:21:04.138 +07:00 [INF] Retrieving all watches
+2025-11-19 15:21:04.144 +07:00 [INF] Retrieving all watches
+2025-11-19 15:21:29.850 +07:00 [INF] Retrieving all watches
+2025-11-19 15:21:29.856 +07:00 [INF] Retrieving all watches
+2025-11-19 15:22:45.286 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 15:22:45.386 +07:00 [INF] Updated watch SRWATCH SG88806.1106AT with ID "303a1644-468f-4cf6-97bd-ec7324a20674"
+2025-11-19 15:22:45.402 +07:00 [INF] Retrieving all watches
+2025-11-19 15:22:51.984 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 15:22:52.001 +07:00 [INF] Updated watch SRWATCH SG88806.1106AT with ID "303a1644-468f-4cf6-97bd-ec7324a20674"
+2025-11-19 15:22:52.012 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:26.565 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 15:23:26.593 +07:00 [INF] Updated watch SRWATCH SG88806.1106AT with ID "303a1644-468f-4cf6-97bd-ec7324a20674"
+2025-11-19 15:23:26.604 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:26.841 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:26.851 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:27.199 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:27.205 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:29.103 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:29.109 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:30.096 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:30.103 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:41.401 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:45.001 +07:00 [INF] Retrieving all watches
+2025-11-19 15:23:45.009 +07:00 [INF] Retrieving all watches
+2025-11-19 15:29:00.837 +07:00 [INF] Retrieving all watches
+2025-11-19 15:29:00.844 +07:00 [INF] Retrieving all watches
+2025-11-19 15:30:39.400 +07:00 [INF] Retrieving all watches
+2025-11-19 15:30:39.406 +07:00 [INF] Retrieving all watches
+2025-11-19 15:30:55.431 +07:00 [INF] Retrieving all watches
+2025-11-19 15:30:55.436 +07:00 [INF] Retrieving all watches
+2025-11-19 15:30:59.191 +07:00 [INF] Retrieving all watches
+2025-11-19 15:30:59.200 +07:00 [INF] Retrieving all watches
+2025-11-19 15:31:11.934 +07:00 [INF] Retrieving all watches
+2025-11-19 15:31:11.939 +07:00 [INF] Retrieving all watches
+2025-11-19 15:32:05.760 +07:00 [INF] Retrieving all watches
+2025-11-19 15:32:05.765 +07:00 [INF] Retrieving all watches
+2025-11-19 15:32:09.263 +07:00 [INF] Retrieving all watches
+2025-11-19 15:32:09.269 +07:00 [INF] Retrieving all watches
+2025-11-19 15:45:34.909 +07:00 [INF] Retrieving all watches
+2025-11-19 15:45:57.639 +07:00 [INF] Retrieving all watches
+2025-11-19 15:45:57.653 +07:00 [INF] Retrieving all watches
+2025-11-19 15:46:26.884 +07:00 [INF] Retrieving all watches
+2025-11-19 15:46:26.893 +07:00 [INF] Retrieving all watches
+2025-11-19 15:46:33.755 +07:00 [INF] Retrieving all watches
+2025-11-19 15:46:33.764 +07:00 [INF] Retrieving all watches
+2025-11-19 15:49:07.169 +07:00 [INF] Retrieving all watches
+2025-11-19 15:49:22.236 +07:00 [INF] Retrieving all watches
+2025-11-19 15:49:22.249 +07:00 [INF] Retrieving all watches
+2025-11-19 15:51:06.257 +07:00 [INF] Retrieving all watches
+2025-11-19 15:51:06.265 +07:00 [INF] Retrieving all watches
+2025-11-19 15:51:41.871 +07:00 [INF] Retrieving all watches
+2025-11-19 15:51:41.877 +07:00 [INF] Retrieving all watches
+2025-11-19 15:52:26.852 +07:00 [INF] Retrieving all watches
+2025-11-19 15:52:26.860 +07:00 [INF] Retrieving all watches
+2025-11-19 15:52:36.581 +07:00 [INF] Retrieving all watches
+2025-11-19 15:52:36.591 +07:00 [INF] Retrieving all watches
+2025-11-19 15:52:45.326 +07:00 [INF] Retrieving all watches
+2025-11-19 15:52:45.333 +07:00 [INF] Retrieving all watches
+2025-11-19 15:56:10.952 +07:00 [INF] Retrieving all watches
+2025-11-19 15:56:10.957 +07:00 [INF] Retrieving all watches
+2025-11-19 15:56:41.703 +07:00 [INF] Retrieving all watches
+2025-11-19 15:56:41.709 +07:00 [INF] Retrieving all watches
+2025-11-19 15:58:32.181 +07:00 [INF] Retrieving all watches
+2025-11-19 15:58:32.187 +07:00 [INF] Retrieving all watches
+2025-11-19 16:01:55.649 +07:00 [INF] Retrieving all watches
+2025-11-19 16:01:55.655 +07:00 [INF] Retrieving all watches
+2025-11-19 16:02:05.875 +07:00 [INF] Retrieving all watches
+2025-11-19 16:02:05.882 +07:00 [INF] Retrieving all watches
+2025-11-19 16:02:22.146 +07:00 [INF] Retrieving all watches
+2025-11-19 16:02:22.152 +07:00 [INF] Retrieving all watches
+2025-11-19 16:02:33.783 +07:00 [INF] Retrieving all watches
+2025-11-19 16:02:33.788 +07:00 [INF] Retrieving all watches
+2025-11-19 16:02:39.897 +07:00 [INF] Retrieving all watches
+2025-11-19 16:02:39.903 +07:00 [INF] Retrieving all watches
+2025-11-19 16:04:17.125 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 16:04:21.791 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 16:04:28.557 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 16:05:00.161 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 16:06:59.546 +07:00 [INF] Retrieving all watches
+2025-11-19 16:06:59.552 +07:00 [INF] Retrieving all watches
+2025-11-19 16:07:27.906 +07:00 [INF] Retrieving all watches
+2025-11-19 16:07:32.463 +07:00 [INF] Retrieving all watches
+2025-11-19 16:07:32.472 +07:00 [INF] Retrieving all watches
+2025-11-19 16:07:44.840 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 16:07:46.307 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 16:08:17.676 +07:00 [INF] GetById: Found watch SRWATCH SG88806.1106AT with ID "303a1644-468f-4cf6-97bd-ec7324a20674"
+2025-11-19 16:08:30.324 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:39.814 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 16:08:39.835 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:44.672 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:44.676 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:48.702 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1106AT
+2025-11-19 16:08:48.820 +07:00 [INF] Updated watch SRWATCH SG88806.1106AT with ID "303a1644-468f-4cf6-97bd-ec7324a20674"
+2025-11-19 16:08:48.834 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:49.044 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:49.053 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:50.437 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:50.441 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:51.481 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:51.488 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:52.502 +07:00 [INF] Retrieving all watches
+2025-11-19 16:08:52.508 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:31.970 +07:00 [INF] Deleted image file: C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\wwwroot\Images\Watches\893c67e6-1ba1-4a81-afb5-05379dbe2ef1.jpg
+2025-11-19 16:09:32.008 +07:00 [INF] Deleted watch with ID "303a1644-468f-4cf6-97bd-ec7324a20674"
+2025-11-19 16:09:32.261 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:32.268 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:32.566 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:32.571 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:34.456 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:34.460 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:35.469 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:35.475 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:36.501 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:36.506 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:37.509 +07:00 [INF] Retrieving all watches
+2025-11-19 16:09:37.515 +07:00 [INF] Retrieving all watches
+2025-11-19 16:14:07.874 +07:00 [INF] Deleted watch with ID "7d76488c-270f-49d0-9114-3bf797840cae"
+2025-11-19 16:14:09.285 +07:00 [INF] Deleted watch with ID "f3abe8ab-015f-4e98-8333-522964ad815e"
+2025-11-19 16:14:10.799 +07:00 [INF] Deleted watch with ID "1e3b76ce-a5b4-4bf3-bee1-a5dec9e67850"
+2025-11-19 16:14:11.939 +07:00 [INF] Deleted watch with ID "d3d1ce7c-7b09-4c95-af37-b707b1223b12"
+2025-11-19 16:14:13.250 +07:00 [INF] Deleted watch with ID "8224f524-dc7a-4376-a1ff-f9a18b6105ec"
+2025-11-19 16:15:14.377 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1106AT not found
+2025-11-19 16:15:14.441 +07:00 [INF] Created new watch SRWATCH SG88806.1106AT with ID "4cee9c10-6c18-430f-a5b3-e84b7d4178a9"
+2025-11-19 16:15:14.465 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:14.587 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:14.590 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:15.005 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:15.010 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:16.885 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:16.890 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:17.906 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:17.910 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:49.402 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1205AT not found
+2025-11-19 16:15:54.435 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1205AT not found
+2025-11-19 16:15:54.459 +07:00 [INF] Created new watch SRWATCH SG88806.1205AT with ID "0a389b58-efc0-4211-a120-0fffff8a4acb"
+2025-11-19 16:15:54.470 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:54.611 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:54.619 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:55.082 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:55.087 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:56.955 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:56.959 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:57.964 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:57.969 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:59.003 +07:00 [INF] Retrieving all watches
+2025-11-19 16:15:59.006 +07:00 [INF] Retrieving all watches
+2025-11-19 16:17:49.989 +07:00 [INF] Retrieving all watches
+2025-11-19 16:19:00.641 +07:00 [INF] Retrieving all watches
+2025-11-19 16:19:05.465 +07:00 [INF] Retrieving all watches
+2025-11-19 16:19:05.470 +07:00 [INF] Retrieving all watches
+2025-11-19 16:19:43.089 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1202AT not found
+2025-11-19 16:19:47.149 +07:00 [INF] Retrieving all watches
+2025-11-19 16:19:47.154 +07:00 [INF] Retrieving all watches
+2025-11-19 16:19:58.902 +07:00 [INF] Retrieving all watches
+2025-11-19 16:20:02.371 +07:00 [INF] Retrieving all watches
+2025-11-19 16:20:14.274 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 16:20:14.286 +07:00 [INF] Retrieving all watches
+2025-11-19 16:20:16.869 +07:00 [INF] Retrieving all watches
+2025-11-19 16:20:16.872 +07:00 [INF] Retrieving all watches
+2025-11-19 16:20:36.560 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1202AT not found
+2025-11-19 16:20:38.350 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1202AT not found
+2025-11-19 16:21:54.840 +07:00 [INF] Retrieving all watches
+2025-11-19 16:21:54.845 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:02.903 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:02.913 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:23.870 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1202AT not found
+2025-11-19 16:25:31.926 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1202AT not found
+2025-11-19 16:25:31.939 +07:00 [INF] Created new watch SRWATCH SG88806.1202AT with ID "01fad5c8-8bac-4bfc-b0f6-c6b92df7d27e"
+2025-11-19 16:25:31.949 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:42.329 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1202AT
+2025-11-19 16:25:42.348 +07:00 [INF] Updated watch SRWATCH SG88806.1202AT with ID "01fad5c8-8bac-4bfc-b0f6-c6b92df7d27e"
+2025-11-19 16:25:42.357 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:42.494 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:42.499 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:42.948 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:42.954 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:44.829 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:44.835 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:45.855 +07:00 [INF] Retrieving all watches
+2025-11-19 16:25:45.859 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:44.603 +07:00 [WRN] GetById: Watch with name 4 not found
+2025-11-19 16:26:44.620 +07:00 [INF] Created new watch 4 with ID "e2b72695-fcff-42d2-8e10-8a3517317e28"
+2025-11-19 16:26:44.630 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:55.744 +07:00 [INF] GetById: Found watch with name 4
+2025-11-19 16:26:55.764 +07:00 [INF] Updated watch 4 with ID "e2b72695-fcff-42d2-8e10-8a3517317e28"
+2025-11-19 16:26:55.780 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:55.924 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:55.929 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:56.348 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:56.353 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:58.238 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:58.241 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:59.252 +07:00 [INF] Retrieving all watches
+2025-11-19 16:26:59.256 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:03.634 +07:00 [INF] Deleted image file: C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\wwwroot\Images\Watches\1d3a9773-eba7-410b-ba36-cd01db4e0ce4.jpg
+2025-11-19 16:30:03.639 +07:00 [INF] Deleted watch with ID "e2b72695-fcff-42d2-8e10-8a3517317e28"
+2025-11-19 16:30:03.908 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:03.913 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:04.232 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:04.238 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:06.123 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:06.129 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:07.135 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:07.139 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:11.721 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:24.719 +07:00 [INF] Retrieving all watches
+2025-11-19 16:30:24.721 +07:00 [INF] Retrieving all watches
+2025-11-19 16:33:00.439 +07:00 [INF] Retrieving all watches
+2025-11-19 16:33:00.443 +07:00 [INF] Retrieving all watches
+2025-11-19 16:33:13.238 +07:00 [INF] Retrieving all watches
+2025-11-19 16:33:13.243 +07:00 [INF] Retrieving all watches
+2025-11-19 16:33:41.837 +07:00 [INF] Retrieving all watches
+2025-11-19 16:33:41.841 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:04.760 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1103AT not found
+2025-11-19 16:34:23.233 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1103AT not found
+2025-11-19 16:34:23.252 +07:00 [INF] Created new watch SRWATCH SG88806.1103AT with ID "33914dae-4bed-4ffc-8eff-fcdadd6688aa"
+2025-11-19 16:34:23.262 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:23.406 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:23.409 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:23.863 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:23.867 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:25.746 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:25.752 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:26.747 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:26.753 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:30.962 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:33.384 +07:00 [INF] Retrieving all watches
+2025-11-19 16:34:33.390 +07:00 [INF] Retrieving all watches
+2025-11-19 16:36:31.030 +07:00 [INF] Retrieving all watches
+2025-11-19 16:38:14.946 +07:00 [INF] Retrieving all watches
+2025-11-19 16:38:41.158 +07:00 [INF] Retrieving all watches
+2025-11-19 16:38:50.044 +07:00 [INF] Retrieving all watches
+2025-11-19 16:39:28.341 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-19 16:39:28.354 +07:00 [INF] Retrieving all watches
+2025-11-19 16:39:31.490 +07:00 [INF] Retrieving all watches
+2025-11-19 16:40:18.217 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1102AT not found
+2025-11-19 16:40:22.870 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1102AT not found
+2025-11-19 16:40:22.897 +07:00 [INF] Created new watch SRWATCH SG88806.1102AT with ID "4d9dd512-9eee-4171-9ac1-c8cf0b3acee2"
+2025-11-19 16:40:22.906 +07:00 [INF] Retrieving all watches
+2025-11-19 16:40:23.067 +07:00 [INF] Retrieving all watches
+2025-11-19 16:40:23.500 +07:00 [INF] Retrieving all watches
+2025-11-19 16:40:25.361 +07:00 [INF] Retrieving all watches
+2025-11-19 16:40:26.391 +07:00 [INF] Retrieving all watches
+2025-11-19 16:41:21.194 +07:00 [INF] Retrieving all watches
+2025-11-19 16:41:31.355 +07:00 [INF] Retrieving all watches
+2025-11-19 16:41:42.422 +07:00 [INF] Retrieving all watches
+2025-11-19 16:42:42.549 +07:00 [INF] Retrieving all watches
+2025-11-19 16:44:35.056 +07:00 [INF] Retrieving all watches
+2025-11-19 16:45:54.934 +07:00 [INF] Retrieving all watches
+2025-11-19 16:46:33.333 +07:00 [INF] Retrieving all watches
+2025-11-19 16:46:36.603 +07:00 [INF] Retrieving all watches
+2025-11-19 16:46:37.107 +07:00 [INF] Retrieving all watches
+2025-11-19 16:47:49.672 +07:00 [INF] Retrieving all watches
+2025-11-19 16:47:53.335 +07:00 [INF] Retrieving all watches
+2025-11-19 16:48:12.173 +07:00 [INF] Retrieving all watches
+2025-11-19 16:48:39.731 +07:00 [INF] Retrieving all watches
+2025-11-19 16:51:03.554 +07:00 [INF] Retrieving all watches
+2025-11-19 16:52:39.119 +07:00 [INF] Retrieving all watches
+2025-11-19 16:54:20.212 +07:00 [INF] Retrieving all watches
+2025-11-19 16:54:25.146 +07:00 [INF] Retrieving all watches
+2025-11-19 16:55:48.417 +07:00 [INF] Retrieving all watches
+2025-11-19 16:55:52.935 +07:00 [INF] Retrieving all watches
+2025-11-19 16:55:54.502 +07:00 [INF] Retrieving all watches
+2025-11-19 16:56:40.595 +07:00 [WRN] GetById: Watch with name SRWATCH SG88806.1101AT not found
+2025-11-19 16:56:40.620 +07:00 [INF] Created new watch SRWATCH SG88806.1101AT with ID "b90e0a84-86fb-4bd2-813c-c0f22f365ea7"
+2025-11-19 16:56:40.634 +07:00 [INF] Retrieving all watches
+2025-11-19 16:56:40.776 +07:00 [INF] Retrieving all watches
+2025-11-19 16:56:42.125 +07:00 [INF] Retrieving all watches
+2025-11-19 16:56:43.135 +07:00 [INF] Retrieving all watches
+2025-11-19 16:56:44.155 +07:00 [INF] Retrieving all watches
+2025-11-19 16:57:21.662 +07:00 [INF] Retrieving all watches
+2025-11-19 16:57:23.705 +07:00 [INF] Retrieving all watches
+2025-11-19 16:57:41.772 +07:00 [INF] Retrieving all watches
+2025-11-19 16:57:56.302 +07:00 [INF] Retrieving all watches
+2025-11-19 16:59:57.020 +07:00 [INF] Retrieving all watches
+2025-11-19 17:00:22.517 +07:00 [INF] Retrieving all watches
+2025-11-19 17:03:02.216 +07:00 [INF] Retrieving all watches
+2025-11-19 17:03:35.137 +07:00 [INF] Retrieving all watches
+2025-11-19 17:04:01.450 +07:00 [INF] Retrieving all watches
+2025-11-19 17:04:25.257 +07:00 [INF] Retrieving all watches
+2025-11-19 17:06:20.073 +07:00 [INF] Retrieving all watches
+2025-11-19 17:06:52.499 +07:00 [INF] Retrieving all watches
+2025-11-19 17:07:06.208 +07:00 [INF] Retrieving all watches
+2025-11-19 17:07:32.348 +07:00 [INF] Retrieving all watches
+2025-11-19 17:07:39.819 +07:00 [INF] Retrieving all watches
+2025-11-19 17:08:30.509 +07:00 [WRN] GetById: Watch with name SRWATCH SG88805.1101AT not found
+2025-11-19 17:08:30.523 +07:00 [INF] Created new watch SRWATCH SG88805.1101AT with ID "d6c94839-9fac-4cf9-9785-8a7685d4c22b"
+2025-11-19 17:08:30.536 +07:00 [INF] Retrieving all watches
+2025-11-19 17:08:30.681 +07:00 [INF] Retrieving all watches
+2025-11-19 17:08:31.084 +07:00 [INF] Retrieving all watches
+2025-11-19 17:08:33.007 +07:00 [INF] Retrieving all watches
+2025-11-19 17:08:34.009 +07:00 [INF] Retrieving all watches
+2025-11-19 17:08:57.286 +07:00 [WRN] GetById: Watch with name SRWATCH SG88805.1103AT not found
+2025-11-19 17:09:01.494 +07:00 [WRN] GetById: Watch with name SRWATCH SG88805.1103AT not found
+2025-11-19 17:09:01.521 +07:00 [INF] Created new watch SRWATCH SG88805.1103AT with ID "8b3ed65d-b2ea-4823-a6ee-9d5cb2d965b8"
+2025-11-19 17:09:01.534 +07:00 [INF] Retrieving all watches
+2025-11-19 17:09:01.679 +07:00 [INF] Retrieving all watches
+2025-11-19 17:09:02.116 +07:00 [INF] Retrieving all watches
+2025-11-19 17:09:03.986 +07:00 [INF] Retrieving all watches
+2025-11-19 17:09:05.008 +07:00 [INF] Retrieving all watches
+2025-11-19 17:09:06.067 +07:00 [INF] Retrieving all watches
+2025-11-19 17:09:07.106 +07:00 [INF] Retrieving all watches
+2025-11-19 17:09:14.042 +07:00 [INF] Retrieving all watches
+2025-11-19 17:09:15.604 +07:00 [INF] Retrieving all watches
+2025-11-19 17:23:55.598 +07:00 [INF] Deleted image file: C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\wwwroot\Images\Watches\dc7d3ef8-0f83-4f14-94fa-40dde6648731.jpg
+2025-11-19 17:23:55.603 +07:00 [INF] Deleted watch with ID "8b3ed65d-b2ea-4823-a6ee-9d5cb2d965b8"
+2025-11-19 17:23:58.912 +07:00 [INF] Deleted image file: C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\wwwroot\Images\Watches\1daceaee-825b-452e-a22d-6bfc8bed97f1.jpg
+2025-11-19 17:23:58.919 +07:00 [INF] Deleted watch with ID "d6c94839-9fac-4cf9-9785-8a7685d4c22b"
+2025-11-19 17:24:38.551 +07:00 [WRN] GetById: Watch with name SRWATCH SG88805.1102AT not found
+2025-11-19 17:24:38.571 +07:00 [INF] Created new watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-19 17:24:38.581 +07:00 [INF] Retrieving all watches
+2025-11-19 17:25:22.039 +07:00 [WRN] GetById: Watch with name SRWATCH SG88805.1205AT not found
+2025-11-19 17:25:22.089 +07:00 [INF] Created new watch SRWATCH SG88805.1205AT with ID "6188359e-5713-4a0b-8894-7e510308ca07"
+2025-11-19 17:25:22.102 +07:00 [INF] Retrieving all watches
+2025-11-19 17:25:46.626 +07:00 [INF] Retrieving all watches
+2025-11-19 17:25:49.625 +07:00 [INF] Retrieving all watches
+2025-11-19 17:25:56.652 +07:00 [INF] Retrieving all watches
+2025-11-19 17:26:49.998 +07:00 [INF] Retrieving all watches
+2025-11-19 17:27:03.964 +07:00 [INF] Retrieving all watches

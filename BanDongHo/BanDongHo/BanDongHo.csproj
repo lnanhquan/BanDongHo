@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\Watches\" />
+    <Folder Include="wwwroot\Images\Watches\" />
   </ItemGroup>
 
 </Project>

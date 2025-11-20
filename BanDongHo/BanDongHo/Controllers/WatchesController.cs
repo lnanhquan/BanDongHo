@@ -4,12 +4,12 @@ using BanDongHo.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BanDongHo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class WatchesController : ControllerBase
     {
         private readonly IWatchService _service;
@@ -57,46 +57,38 @@ namespace BanDongHo.Controllers
 
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Create([FromBody] WatchDTO watchDto)
+        public async Task<IActionResult> Create([FromForm] WatchDTO watchDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            var watch = new Watch
-            {
-                Name = watchDto.Name,
-                Price = watchDto.Price,
-                ImageUrl = watchDto.ImageUrl
-            };
-            await _service.CreateAsync(watch);
-            
+
+            var watch = await _service.CreateAsync(watchDto);
+
             var result = new WatchDTO
             {
                 Id = watch.Id,
                 Name = watch.Name,
                 Price = watch.Price,
-                ImageUrl = watch.ImageUrl
+                ImageUrl = watch.ImageUrl,
+                ImageFile = null
             };
 
-            return CreatedAtAction(nameof(GetById), new { id = watch.Id }, result);
+            return CreatedAtAction(nameof(GetById), new { id = watchDto.Id }, result);
         }
 
         [HttpPut("{id:guid}")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Update(Guid id, [FromBody] WatchDTO watchDto)
+        public async Task<IActionResult> Update(Guid id, [FromForm] WatchDTO watchDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            var watch = new Watch
-            {
-                Name = watchDto.Name,
-                Price = watchDto.Price,
-                ImageUrl = watchDto.ImageUrl
-            };
-            var updated = await _service.UpdateAsync(id, watch);
+
+            var updated = await _service.UpdateAsync(id, watchDto);
+
             if (!updated)
             {
                 return NotFound();
@@ -114,6 +106,24 @@ namespace BanDongHo.Controllers
                 return NotFound();
             }
             return NoContent();
+        }
+
+        [HttpGet("check-name")]
+        public async Task<IActionResult> GetByName(string name)
+        {
+            var watch = await _service.GetByNameAsync(name);
+            if (watch == null)
+            {
+                return NotFound();
+            }
+            var dto = new WatchDTO
+            {
+                Id = watch.Id,
+                Name = watch.Name,
+                Price = watch.Price,
+                ImageUrl = watch.ImageUrl
+            };
+            return Ok(dto);
         }
     }
 }

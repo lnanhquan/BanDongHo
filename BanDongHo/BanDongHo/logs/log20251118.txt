@@ -229,3 +229,77 @@ System.InvalidOperationException: Role USER does not exist.
 2025-11-18 13:52:33.503 +07:00 [INF] Created new watch 1 with ID "1e3b76ce-a5b4-4bf3-bee1-a5dec9e67850"
 2025-11-18 13:59:33.534 +07:00 [INF] User lnaq logged in successfully: lnaq@gmail.com
 2025-11-18 14:00:07.480 +07:00 [INF] Retrieving all watches
+2025-11-18 14:40:56.990 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-18 14:41:23.561 +07:00 [INF] Retrieving all watches
+2025-11-18 14:41:36.914 +07:00 [INF] Created new watch 2 with ID "f3abe8ab-015f-4e98-8333-522964ad815e"
+2025-11-18 14:41:48.304 +07:00 [INF] Created new watch 3 with ID "7d76488c-270f-49d0-9114-3bf797840cae"
+2025-11-18 14:41:56.363 +07:00 [INF] Created new watch 4 with ID "8224f524-dc7a-4376-a1ff-f9a18b6105ec"
+2025-11-18 14:42:05.792 +07:00 [INF] Created new watch 5 with ID "d3d1ce7c-7b09-4c95-af37-b707b1223b12"
+2025-11-18 14:47:24.484 +07:00 [INF] Retrieving all watches
+2025-11-18 14:49:40.225 +07:00 [INF] Retrieving all watches
+2025-11-18 14:50:55.986 +07:00 [INF] Retrieving all watches
+2025-11-18 14:53:59.425 +07:00 [INF] Retrieving all watches
+2025-11-18 14:54:46.275 +07:00 [INF] Retrieving all watches
+2025-11-18 14:56:44.290 +07:00 [INF] Retrieving all watches
+2025-11-18 14:57:03.730 +07:00 [INF] Retrieving all watches
+2025-11-18 15:01:04.717 +07:00 [INF] Retrieving all watches
+2025-11-18 15:01:31.124 +07:00 [INF] Retrieving all watches
+2025-11-18 15:02:29.979 +07:00 [INF] Retrieving all watches
+2025-11-18 15:02:49.940 +07:00 [INF] Retrieving all watches
+2025-11-18 15:03:23.019 +07:00 [INF] Retrieving all watches
+2025-11-18 15:03:34.609 +07:00 [INF] Retrieving all watches
+2025-11-18 15:03:57.027 +07:00 [INF] Retrieving all watches
+2025-11-18 15:07:27.969 +07:00 [INF] Retrieving all watches
+2025-11-18 15:08:38.959 +07:00 [INF] Retrieving all watches
+2025-11-18 15:25:13.585 +07:00 [INF] Retrieving all watches
+2025-11-18 15:29:05.707 +07:00 [INF] Retrieving all watches
+2025-11-18 15:41:26.079 +07:00 [INF] Retrieving all watches
+2025-11-18 15:45:41.969 +07:00 [INF] Retrieving all watches
+2025-11-18 15:46:18.032 +07:00 [INF] Retrieving all watches
+2025-11-18 15:46:45.128 +07:00 [INF] Retrieving all watches
+2025-11-18 15:47:45.598 +07:00 [INF] Retrieving all watches
+2025-11-18 15:48:19.714 +07:00 [INF] Retrieving all watches
+2025-11-18 15:52:29.060 +07:00 [INF] Retrieving all watches
+2025-11-18 16:00:33.578 +07:00 [INF] Retrieving all watches
+2025-11-18 16:10:05.652 +07:00 [INF] Retrieving all watches
+2025-11-18 16:10:10.676 +07:00 [INF] Retrieving all watches
+2025-11-18 16:10:41.994 +07:00 [INF] Retrieving all watches
+2025-11-18 16:10:45.225 +07:00 [INF] Retrieving all watches
+2025-11-18 16:31:45.361 +07:00 [INF] Retrieving all watches
+2025-11-18 16:34:17.866 +07:00 [INF] Retrieving all watches
+2025-11-18 16:36:10.273 +07:00 [INF] Retrieving all watches
+2025-11-18 16:36:45.193 +07:00 [INF] Retrieving all watches
+2025-11-18 16:36:58.026 +07:00 [INF] Retrieving all watches
+2025-11-18 16:37:59.808 +07:00 [WRN] Registration failed: lnaq@gmail.com already exists
+2025-11-18 16:39:59.456 +07:00 [INF] Retrieving all watches
+2025-11-18 16:40:03.796 +07:00 [INF] Retrieving all watches
+2025-11-18 16:40:11.835 +07:00 [INF] Retrieving all watches
+2025-11-18 16:42:28.807 +07:00 [INF] Retrieving all watches
+2025-11-18 16:42:39.465 +07:00 [INF] Retrieving all watches
+2025-11-18 16:43:23.859 +07:00 [INF] Retrieving all watches
+2025-11-18 16:43:58.819 +07:00 [INF] Retrieving all watches
+2025-11-18 16:44:34.130 +07:00 [INF] Retrieving all watches
+2025-11-18 16:45:23.548 +07:00 [INF] Retrieving all watches
+2025-11-18 16:45:51.861 +07:00 [INF] Retrieving all watches
+2025-11-18 16:45:57.132 +07:00 [INF] Retrieving all watches
+2025-11-18 16:47:18.183 +07:00 [INF] Retrieving all watches
+2025-11-18 16:48:12.590 +07:00 [INF] Retrieving all watches
+2025-11-18 17:08:21.363 +07:00 [INF] Retrieving all watches
+2025-11-18 17:09:55.863 +07:00 [INF] Retrieving all watches
+2025-11-18 17:10:16.603 +07:00 [INF] Retrieving all watches
+2025-11-18 17:11:27.406 +07:00 [INF] Retrieving all watches
+2025-11-18 17:11:37.346 +07:00 [INF] Retrieving all watches
+2025-11-18 17:12:45.624 +07:00 [INF] User user registered successfully: user@gmail.com
+2025-11-18 17:13:37.704 +07:00 [INF] Retrieving all watches
+2025-11-18 17:14:15.733 +07:00 [WRN] Login failed for lnaq@gmail.com: Invalid password
+2025-11-18 17:15:50.270 +07:00 [INF] Retrieving all watches
+2025-11-18 17:16:39.567 +07:00 [INF] Retrieving all watches
+2025-11-18 17:16:54.109 +07:00 [INF] Retrieving all watches
+2025-11-18 17:17:09.993 +07:00 [WRN] Login failed: 123@gmail.com not found
+2025-11-18 17:17:31.347 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-18 17:17:31.375 +07:00 [INF] Retrieving all watches
+2025-11-18 17:19:09.726 +07:00 [INF] Retrieving all watches
+2025-11-18 17:19:30.979 +07:00 [INF] Retrieving all watches
+2025-11-18 17:19:39.928 +07:00 [INF] Retrieving all watches
+2025-11-18 17:19:53.565 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-18 17:19:53.578 +07:00 [INF] Retrieving all watches

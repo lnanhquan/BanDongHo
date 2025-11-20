@@ -106,6 +106,8 @@ builder.Host.UseSerilog();
 
 var app = builder.Build();
 
+app.UseStaticFiles();
+
 // Tạo sẵn 1 tài khoản admin khi khởi động ứng dụng
 using (var scope = app.Services.CreateScope())
 {

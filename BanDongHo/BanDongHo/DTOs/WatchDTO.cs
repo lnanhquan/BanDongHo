@@ -14,8 +14,8 @@ namespace BanDongHo.DTOs
         [Range(0, 1000000000, ErrorMessage = "Price must be between 0 and 1,000,000,000.")]
         public int Price { get; set; }
 
-        [Required(ErrorMessage = "Image URL is required.")]
-        [MaxLength(200, ErrorMessage = "Image URL cannot exceed 200 characters.")]
-        public string ImageUrl { get; set; } = string.Empty;
+        public string? ImageUrl { get; set; }
+
+        public IFormFile? ImageFile { get; set; }
     }
 }

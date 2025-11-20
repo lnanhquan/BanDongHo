@@ -128,5 +128,12 @@ namespace BanDongHo.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred during login");
             }
         }
+
+        [HttpGet("check-email")]
+        public async Task<IActionResult> CheckEmail(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            return Ok(user != null);
+        }
     }
 }
