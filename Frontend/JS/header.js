@@ -36,15 +36,21 @@ function renderHeader()
     </nav>
     `;
 
-    document.getElementById("header").innerHTML = headerHTML;
+    document.getElementById("header").insertAdjacentHTML("beforeend", headerHTML);
 
     document.getElementById("btnLogin").addEventListener("click", openLoginModal);
     document.getElementById("btnLogout").addEventListener("click", logout);
 
+    document.body.style.paddingTop = "70px";
+
     const user = JSON.parse(localStorage.getItem("user"));
     updateUIAfterLogin(!!user);
-
-    document.body.style.paddingTop = "70px";
 }
 
-document.addEventListener("DOMContentLoaded", renderHeader);
+document.addEventListener("DOMContentLoaded", () => {
+    const headerContainer = document.getElementById("header");
+
+    if (headerContainer && !headerContainer.querySelector("nav")) {
+        renderHeader();
+    }
+});

@@ -147,7 +147,6 @@ async function login() {
         localStorage.setItem("user", JSON.stringify(response.data));
         updateUIAfterLogin(true);
         loginModal.hide();
-        loadWatches();
         Swal.fire({
             icon: "success",
             title: "Logged in successfully!",

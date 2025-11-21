@@ -6,8 +6,9 @@ const watchAPI = {
     update: (id, formData) => api.put(`/Watches/${id}`, formData),
     delete: id => api.delete(`/Watches/${id}`)
 };
-let watchModal;
+
 let watchTable = document.getElementById("watchTable");
+let watchModal = null;
 let watchModalLabel = document.getElementById("watchModalLabel");
 let watchId = document.getElementById("watchId");
 let watchName = document.getElementById("watchName");
@@ -15,17 +16,18 @@ let watchPrice = document.getElementById("watchPrice");
 let ImageFile = document.getElementById("ImageFile");
 let saveBtn = document.getElementById("saveBtn");
 let isEditing = false;
-let currentPage = 1;
-let rowsPerPage = 3; 
+let watchCurrentPage = 1;
+let watchRowsPerPage = 3; 
+let watchesDataAll = [];
 let watchesData = []; 
 
 async function getTable() {
     try {
         const response = await watchAPI.getAll();
-        watchesData = response.data;
+        watchesDataAll = response.data;
+        watchesData = [...watchesDataAll];
 
-        renderTablePage(currentPage);
-        renderPagination();
+        renderTablePage(watchCurrentPage);
     } 
     catch (error) 
     {
@@ -35,8 +37,8 @@ async function getTable() {
 }
 
 function renderTablePage(page) {
-    const start = (page - 1) * rowsPerPage;
-    const end = start + rowsPerPage;
+    const start = (page - 1) * watchRowsPerPage;
+    const end = start + watchRowsPerPage;
     const pageData = watchesData.slice(start, end);
 
     watchTable.innerHTML = "";
@@ -84,28 +86,17 @@ function renderTablePage(page) {
             watchTable.appendChild(tr);
         });
     }
-}
 
-function renderPagination() {
-    const pagination = document.getElementById("pagination");
-    pagination.innerHTML = "";
-
-    const pageCount = Math.ceil(watchesData.length / rowsPerPage);
-
-    for (let i = 1; i <= pageCount; i++) {
-        const btn = document.createElement("button");
-        btn.textContent = i;
-        btn.className = "btn btn-outline-primary me-1";
-        if (i === currentPage) btn.classList.add("active");
-
-        btn.addEventListener("click", () => {
-            currentPage = i;
-            renderTablePage(currentPage);
-            renderPagination();
-        });
-
-        pagination.appendChild(btn);
-    }
+    createPagination({
+        totalItems: watchesData.length,
+        pageSize: watchRowsPerPage,
+        currentPage: page,
+        containerId: "paginationWatch",
+        onPageClick: (newPage) => {
+            watchCurrentPage = newPage;
+            renderTablePage(newPage);
+        }
+    });
 }
 
 function openCreateModal() {
@@ -133,7 +124,7 @@ function openEditModal(id, name, price) {
     watchModal.show();
 }
 
-saveBtn.addEventListener("click", async () => {
+async function handleSaveWatch() {
     const name = watchName.value.trim();
     const price = watchPrice.value.trim();
     const id = watchId.value;
@@ -203,7 +194,8 @@ saveBtn.addEventListener("click", async () => {
     const formData = new FormData();
     formData.append("Name", name);
     formData.append("Price", priceNum);
-    if (ImageFile.files[0]) {
+    if (ImageFile.files && ImageFile.files.length > 0) 
+    {
         formData.append("ImageFile", ImageFile.files[0]);
     }
 
@@ -233,8 +225,8 @@ saveBtn.addEventListener("click", async () => {
                 timerProgressBar: true,
             });
         }
+        await getTable();
         watchModal.hide();
-        getTable();
     } catch (error) {
             Swal.fire({
                 icon: "error",
@@ -249,7 +241,7 @@ saveBtn.addEventListener("click", async () => {
     } finally {
         saveBtn.disabled = false;
     }
-});
+}
 
 async function deleteWatch(id, btnDelete) {
     const result = await Swal.fire({
@@ -268,8 +260,7 @@ async function deleteWatch(id, btnDelete) {
         try {
             await watchAPI.delete(id);
 
-            const row = btnDelete.closest('tr');
-            if (row) row.remove();
+            await getTable();
 
             Swal.fire({
                 icon: "success",
@@ -300,10 +291,46 @@ async function deleteWatch(id, btnDelete) {
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    const currentPage = window.location.pathname;
-    if (currentPage.endsWith("watch.html")) {
-        getTable();
+function searchManagementWatch()
+{
+    const keyword = document.getElementById("searchManagementWatch").value.trim().toLowerCase();
+    if (keyword == null) {
+        watchesData = [...watchesDataAll];
+        return;
     }
-    watchModal = new bootstrap.Modal(document.getElementById("watchModal"));
+    else
+    {
+        watchesData = watchesDataAll.filter(w => 
+            w.name.toLowerCase().includes(keyword)
+        );
+    }
+
+    watchCurrentPage = 1;
+
+    renderTablePage(watchCurrentPage);
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const pathName = window.location.pathname;
+    if (pathName.endsWith("watch.html")) {
+        getTable();
+
+        watchModal = new bootstrap.Modal(document.getElementById("watchModal"));
+
+        document.getElementById("watchForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+        });
+
+        if (!saveBtn.dataset.listenerAttached) {
+            saveBtn.addEventListener("click", handleSaveWatch);
+            saveBtn.dataset.listenerAttached = "true";
+        }
+
+        document.getElementById("searchManagementWatch").addEventListener("keyup", e => {
+            if (e.key === "Enter") {
+                searchManagementWatch();
+            }
+        });
+    }
 });

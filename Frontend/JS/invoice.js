@@ -7,7 +7,7 @@ const invoiceAPI = {
 };
 
 let invoiceTable = document.getElementById("invoiceTable");
-let invoiceModal;
+let invoiceModal = null;
 let viewInvoiceModal;
 let invoiceModalLabel = document.getElementById("invoiceModalLabel");
 let invoiceUser = document.getElementById("invoiceUser");
@@ -15,63 +15,90 @@ let invoiceDetailsContainer = document.getElementById("invoiceDetailsContainer")
 let saveInvoiceBtn = document.getElementById("saveInvoiceBtn");
 let isEditingInvoice = false;
 let editingInvoiceId = null;
+let invoiceCurrentPage = 1;
+let invoiceRowsPerPage = 10; 
+let invoiceDataAll = []; 
+let invoiceData = []; 
+
+
+function renderInvoicePage(page) {
+    const start = (page - 1) * invoiceRowsPerPage;
+    const end = start + invoiceRowsPerPage;
+    const pageData = invoiceData.slice(start, end);
+
+    invoiceTable.innerHTML = "";
+
+    if (pageData.length === 0) {
+        invoiceTable.innerHTML = '<tr><td colspan="4">No invoices found</td></tr>';
+    } else {
+        pageData.forEach(i => {
+            const tr = document.createElement("tr");
+
+            const tdUser = document.createElement("td");
+            tdUser.textContent = i.userEmail;
+
+            const tdCreatedAt = document.createElement("td");
+            const createdAtUTC = new Date(i.createdAt.replace(/\.\d+/, ''));
+            const vnTime = new Date(createdAtUTC.getTime() + 7 * 60 * 60 * 1000);
+            tdCreatedAt.textContent = vnTime.toLocaleString("vi-VN", { hour12: false });
+
+            const tdTotal = document.createElement("td");
+            tdTotal.textContent = i.totalAmount.toLocaleString() + " VND";
+
+            const tdActions = document.createElement("td");
+
+            // Nút Detail
+            const btnDetail = document.createElement("button");
+            btnDetail.className = "btn btn-secondary me-2";
+            btnDetail.innerHTML = `<i class="bi bi-info-circle"></i> Detail`;
+            btnDetail.addEventListener("click", () => openDetailInvoiceModal(i));
+
+            // Nút Edit
+            const btnEdit = document.createElement("button");
+            btnEdit.className = "btn btn-success me-2";
+            btnEdit.innerHTML = `<i class="bi bi-pencil"></i> Edit`;
+            btnEdit.addEventListener("click", () => openEditInvoiceModal(i));
+
+            // Nút Delete
+            const btnDeleteInvoice = document.createElement("button");
+            btnDeleteInvoice.className = "btn btn-danger";
+            btnDeleteInvoice.innerHTML = `<i class="bi bi-trash"></i> Delete`;
+            btnDeleteInvoice.addEventListener("click", () => deleteInvoice(i.id, btnDeleteInvoice));
+
+            tdActions.appendChild(btnDetail);
+            tdActions.appendChild(btnEdit);
+            tdActions.appendChild(btnDeleteInvoice);
+
+            tr.appendChild(tdUser);
+            tr.appendChild(tdCreatedAt);
+            tr.appendChild(tdTotal);
+            tr.appendChild(tdActions);
+
+            invoiceTable.appendChild(tr);
+        });
+    }
+
+    createPagination({
+        totalItems: invoiceData.length,
+        pageSize: invoiceRowsPerPage,
+        currentPage: page,
+        containerId: "paginationInvoice",
+        onPageClick: (newPage) => {
+            invoiceCurrentPage = newPage;
+            renderInvoicePage(newPage);
+        }
+    });
+}
 
 async function getInvoiceTable() {
     try {
         const response = await invoiceAPI.getAll();
-        const invoices = response.data;
+        invoiceDataAll = response.data;
+        invoiceData = [...invoiceDataAll];
 
-        invoiceTable.innerHTML = "";
+        renderInvoicePage(invoiceCurrentPage);
 
-        if (invoices.length === 0) {
-            invoiceTable.innerHTML = '<tr><td colspan="4">No invoices found</td></tr>';
-        } else {
-            invoices.forEach(i => {
-                const tr = document.createElement("tr");
-
-                const tdUser = document.createElement("td");
-                tdUser.textContent = i.userEmail;
-
-                const tdCreatedAt = document.createElement("td");
-                const createdAtUTC = new Date(i.createdAt.replace(/\.\d+/, ''));
-                const vnTime = new Date(createdAtUTC.getTime() + 7 * 60 * 60 * 1000);
-                tdCreatedAt.textContent = vnTime.toLocaleString("vi-VN", { hour12: false });
-
-                const tdTotal = document.createElement("td");
-                tdTotal.textContent = i.totalAmount.toLocaleString() + " VND";
-
-                const tdActions = document.createElement("td");
-
-                // Nút Detail
-                const btnDetail = document.createElement("button");
-                btnDetail.className = "btn btn-secondary me-2";
-                btnDetail.innerHTML = `<i class="bi bi-info-circle"></i> Detail`;
-                btnDetail.addEventListener("click", () => openDetailInvoiceModal(i));
-
-                // Nút Edit
-                const btnEdit = document.createElement("button");
-                btnEdit.className = "btn btn-success me-2";
-                btnEdit.innerHTML = `<i class="bi bi-pencil"></i> Edit`;
-                btnEdit.addEventListener("click", () => openEditInvoiceModal(i));
-
-                // Nút Delete
-                const btnDeleteInvoice = document.createElement("button");
-                btnDeleteInvoice.className = "btn btn-danger";
-                btnDeleteInvoice.innerHTML = `<i class="bi bi-trash"></i> Delete`;
-                btnDeleteInvoice.addEventListener("click", () => deleteInvoice(i.id, btnDeleteInvoice));
-
-                tdActions.appendChild(btnDetail);
-                tdActions.appendChild(btnEdit);
-                tdActions.appendChild(btnDeleteInvoice);
-
-                tr.appendChild(tdUser);
-                tr.appendChild(tdCreatedAt);
-                tr.appendChild(tdTotal);
-                tr.appendChild(tdActions);
-
-                invoiceTable.appendChild(tr);
-            });
-        }
+        
     } catch (error) {
         invoiceTable.innerHTML = `<tr><td colspan="4">${error.message}</td></tr>`;
         console.error(error);
@@ -350,11 +377,46 @@ async function deleteInvoice(id, btnDeleteInvoice) {
     }
 }
 
+function searchManagementInvoice()
+{
+    let keyword = document.getElementById("searchManagementInvoice").value.trim().toLowerCase();
+    if (keyword == null) {
+        invoiceData = [...invoiceDataAll];
+        return;
+    }
+    else
+    {
+        const dateParts = keyword.split('/');
+        if (dateParts.length === 3) {
+            const [dd, mm, yyyy] = dateParts;
+            keyword = `${yyyy}-${mm.padStart(2, '0')}-${dd.padStart(2, '0')}`;
+        }
+
+        invoiceData = invoiceDataAll.filter(i => {
+            const emailMatch = i.userEmail.toLowerCase().includes(keyword);
+
+            const dateStr = i.createdAt.split(' ')[0];
+            const dateMatch = dateStr.includes(keyword);
+
+            return emailMatch || dateMatch;
+        });
+    }
+
+    watchCurrentPage = 1;
+
+    renderInvoicePage(invoiceCurrentPage);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const currentPage = window.location.pathname;
     if (currentPage.endsWith("invoice.html")) {
         getInvoiceTable();
+        invoiceModal = new bootstrap.Modal(document.getElementById("invoiceModal"));
+        viewInvoiceModal = new bootstrap.Modal(document.getElementById("viewInvoiceModal"));
+        document.getElementById("searchManagementInvoice").addEventListener("keyup", e => {
+            if (e.key === "Enter") {
+                searchManagementInvoice();
+            }
+        });
     }
-    invoiceModal = new bootstrap.Modal(document.getElementById("invoiceModal"));
-    viewInvoiceModal = new bootstrap.Modal(document.getElementById("viewInvoiceModal"));
 });

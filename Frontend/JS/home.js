@@ -1,34 +1,55 @@
+let registerModal = null;
+let loginModal = null;
+let homeCurrentPage = 1;
+let homeRowsPerPage = 8; 
+let homeData = []; 
+
 async function loadWatches() {
     try {
-        const response = await watchAPI.getAll();
-        const watches = response.data;
+        const response = await api.get("/Watches");
+        homeData = response.data;
 
-        const watchList = document.getElementById("watchList");
-
-        watchList.innerHTML = "";
-
-        watches.forEach(w => {
-            const imageUrl = getFullImageUrl(w.imageUrl);
-            watchList.innerHTML += `
-                <div class="col-md-3 mb-4">
-                    <div class="card shadow-lg">
-                        <img src="${imageUrl}" class="card-img-top" alt="${w.name}" style="object-fit: cover;">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">${w.name}</h5>
-                            <p class="card-text text-danger fs-6 fw-bold text-center">${w.price.toLocaleString()} VND</p>
-                        </div>
-                    </div>
-                </div>
-            `;
-        });
-
+        renderHomePage(homeCurrentPage);
     } catch (error) {
         console.error(error);
     }
 }
 
-let loginModal;
-let registerModal;
+function renderHomePage(page) {
+    const watchList = document.getElementById("watchList");
+    watchList.innerHTML = "";
+
+    const start = (page - 1) * homeRowsPerPage;
+    const end = start + homeRowsPerPage;
+    const pageData = homeData.slice(start, end);
+
+    pageData.forEach(w => {
+        const imageUrl = getFullImageUrl(w.imageUrl);
+
+        watchList.innerHTML += `
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg">
+                    <img src="${imageUrl}" class="card-img-top" alt="${w.name}" style="height: 270px; width: 270px;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">${w.name}</h5>
+                        <p class="card-text text-danger fs-6 fw-bold text-center">${w.price.toLocaleString()} VND</p>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+
+    createPagination({
+        totalItems: homeData.length,
+        pageSize: homeRowsPerPage,
+        currentPage: homeCurrentPage,
+        containerId: "paginationHome",
+        onPageClick: (page) => {
+            homeCurrentPage = page;
+            renderHomePage(homeCurrentPage);
+        }
+    });
+}
 
 function updateUIAfterLogin(isLoggedIn) {
     const btnLogin = document.getElementById("btnLogin");
@@ -55,14 +76,38 @@ function updateUIAfterLogin(isLoggedIn) {
     }
 }
 
+function createPagination({ totalItems, pageSize, currentPage, containerId, onPageClick }) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    const pageCount = Math.ceil(totalItems / pageSize);
+    if (pageCount <= 1) return; 
+
+    for (let i = 1; i <= pageCount; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = i;
+        btn.className = "btn btn-outline-primary me-1";
+        if (i === Number(currentPage)) btn.classList.add("active");
+
+        btn.addEventListener("click", () => {
+            if (i === currentPage) return; 
+            onPageClick(i);
+        });
+
+        container.appendChild(btn);
+    }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-    const currentPage = window.location.pathname;
-    if (currentPage.endsWith("home.html")) {
+    const pathName = window.location.pathname;
+    if (pathName.endsWith("home.html")) {
         loadWatches();
         loginModal = new bootstrap.Modal(document.getElementById("loginModal"));
         registerModal = new bootstrap.Modal(document.getElementById("registerModal"));
+        const user = JSON.parse(localStorage.getItem("user"));
+        updateUIAfterLogin(!!user);
     }
-    const user = JSON.parse(localStorage.getItem("user"));
-    updateUIAfterLogin(!!user);
 });
 
