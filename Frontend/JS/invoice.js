@@ -19,7 +19,7 @@ let invoiceCurrentPage = 1;
 let invoiceRowsPerPage = 10; 
 let invoiceDataAll = []; 
 let invoiceData = []; 
-
+let invoiceSortState = {};
 
 function renderInvoicePage(page) {
     const start = (page - 1) * invoiceRowsPerPage;
@@ -407,6 +407,40 @@ function searchManagementInvoice()
     renderInvoicePage(invoiceCurrentPage);
 }
 
+
+function sortInvoiceBy(field)
+{
+    invoiceSortState[field] = invoiceSortState[field] === "asc" ? "desc" : "asc";
+    const direction = invoiceSortState[field];
+
+    invoiceData.sort((a, b) => {
+        let x, y;
+
+        switch (field) {
+            case "user":
+                x = a.userEmail.toLowerCase();
+                y = b.userEmail.toLowerCase();
+                break;
+
+            case "createdAt":
+                x = new Date(a.createdAt);
+                y = new Date(b.createdAt);
+                break;
+
+            case "total":
+                x = a.totalAmount;
+                y = b.totalAmount;
+                break;
+        }
+
+        if (x < y) return direction === "asc" ? -1 : 1;
+        if (x > y) return direction === "asc" ? 1 : -1;
+        return 0;
+    });
+
+    renderInvoicePage(invoiceCurrentPage);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const currentPage = window.location.pathname;
     if (currentPage.endsWith("invoice.html")) {
@@ -417,6 +451,12 @@ document.addEventListener("DOMContentLoaded", () => {
             if (e.key === "Enter") {
                 searchManagementInvoice();
             }
+        });
+        document.querySelectorAll(".sort-icon").forEach(icon => {
+            icon.addEventListener("click", () => {
+                const field = icon.dataset.sort;
+                sortInvoiceBy(field);
+            });
         });
     }
 });

@@ -27,7 +27,8 @@ function renderHeader()
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="d-flex ms-auto">
+            <div class="d-flex ms-auto align-items-center">
+                <span id="userGreeting" class="me-2 d-none"></span>
                 <button id="btnLogin" class="btn btn-outline-primary me-2">Login</button>
                 <button id="btnLogout" class="btn btn-outline-danger d-none">Logout</button>
             </div>

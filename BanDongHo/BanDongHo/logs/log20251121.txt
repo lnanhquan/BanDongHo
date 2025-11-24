@@ -790,3 +790,24 @@
 2025-11-21 17:01:23.614 +07:00 [INF] Retrieved all invoices.
 2025-11-21 17:01:23.981 +07:00 [INF] Retrieving all watches
 2025-11-21 17:01:31.774 +07:00 [INF] Retrieved all invoices.
+2025-11-21 17:10:14.504 +07:00 [INF] Retrieving all watches
+2025-11-21 17:12:32.627 +07:00 [INF] Retrieving all watches
+2025-11-21 17:17:45.972 +07:00 [INF] Retrieving all watches
+2025-11-21 17:18:06.158 +07:00 [INF] Retrieving all watches
+2025-11-21 17:19:16.284 +07:00 [INF] Retrieving all watches
+2025-11-21 17:20:47.682 +07:00 [INF] Retrieving all watches
+2025-11-21 17:21:06.202 +07:00 [INF] Retrieving all watches
+2025-11-21 17:21:14.514 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-21 17:22:51.012 +07:00 [INF] Retrieving all watches
+2025-11-21 17:22:59.848 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-21 17:23:02.591 +07:00 [INF] Retrieving all watches
+2025-11-21 17:23:06.944 +07:00 [INF] Retrieved all invoices.
+2025-11-21 17:23:18.277 +07:00 [INF] Retrieving all watches
+2025-11-21 17:23:19.211 +07:00 [INF] Retrieved all invoices.
+2025-11-21 17:23:20.077 +07:00 [INF] Retrieving all watches
+2025-11-21 17:24:42.481 +07:00 [INF] Retrieving all watches
+2025-11-21 17:24:43.670 +07:00 [INF] Retrieved all invoices.
+2025-11-21 17:24:44.575 +07:00 [INF] Retrieving all watches
+2025-11-21 17:24:54.428 +07:00 [INF] Retrieving all watches
+2025-11-21 17:24:56.044 +07:00 [INF] Retrieved all invoices.
+2025-11-21 17:26:26.331 +07:00 [INF] Retrieved all invoices.

@@ -7,4 +7,4 @@ wwwroot\Images\Watches\8660d675-a388-4e1d-8a5d-88a6c0ea263b.jpg
 wwwroot\Images\Watches\92d6dd9a-e521-493d-afc6-6b8ef8a95dc5.jpg
 wwwroot\Images\Watches\a2c6926a-a6dd-44e5-8ec3-71e500f0bc95.jpg
 wwwroot\Images\Watches\bfc2658e-0f48-4057-a520-ebd0bf5edcfd.jpg
-wwwroot\Images\Watches\81a2a1cc-af37-489f-b293-020971adeed9.jpg
+wwwroot\Images\Watches\e22edd91-20da-4c5f-8b88-9feeb768a4be.jpg

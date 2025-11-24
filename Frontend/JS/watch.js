@@ -20,6 +20,7 @@ let watchCurrentPage = 1;
 let watchRowsPerPage = 3; 
 let watchesDataAll = [];
 let watchesData = []; 
+let watchSortState = {};
 
 async function getTable() {
     try {
@@ -27,7 +28,7 @@ async function getTable() {
         watchesDataAll = response.data;
         watchesData = [...watchesDataAll];
 
-        renderTablePage(watchCurrentPage);
+        renderWatchPage(watchCurrentPage);
     } 
     catch (error) 
     {
@@ -36,7 +37,7 @@ async function getTable() {
     }
 }
 
-function renderTablePage(page) {
+function renderWatchPage(page) {
     const start = (page - 1) * watchRowsPerPage;
     const end = start + watchRowsPerPage;
     const pageData = watchesData.slice(start, end);
@@ -94,7 +95,7 @@ function renderTablePage(page) {
         containerId: "paginationWatch",
         onPageClick: (newPage) => {
             watchCurrentPage = newPage;
-            renderTablePage(newPage);
+            renderWatchPage(newPage);
         }
     });
 }
@@ -170,15 +171,6 @@ async function handleSaveWatch() {
     }
 
     const priceNum = Number(price);
-
-    if (isNaN(priceNum)) {
-        Swal.fire({
-            icon: 'error',
-            title: 'Price Requirement',
-            html: 'Price must be a valid number without commas or invalid characters.'
-        });
-        return;
-    }
 
     if (priceNum < 0 || priceNum > 1000000000) {
         Swal.fire({
@@ -307,9 +299,36 @@ function searchManagementWatch()
 
     watchCurrentPage = 1;
 
-    renderTablePage(watchCurrentPage);
+    renderWatchPage(watchCurrentPage);
 }
 
+function sortWatchBy(field)
+{
+    watchSortState[field] = watchSortState[field] === "asc" ? "desc" : "asc";
+    const direction = watchSortState[field];
+
+    watchesData.sort((a, b) => {
+        let x, y;
+
+        switch (field) {
+            case "watchName":
+                x = a.name.toLowerCase();
+                y = b.name.toLowerCase();
+                break;
+
+            case "price":
+                x = a.price;
+                y = b.price;
+                break;
+        }
+
+        if (x < y) return direction === "asc" ? -1 : 1;
+        if (x > y) return direction === "asc" ? 1 : -1;
+        return 0;
+    });
+
+    renderWatchPage(watchCurrentPage);
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     const pathName = window.location.pathname;
@@ -331,6 +350,12 @@ document.addEventListener("DOMContentLoaded", () => {
             if (e.key === "Enter") {
                 searchManagementWatch();
             }
+        });
+        document.querySelectorAll(".sort-icon").forEach(icon => {
+            icon.addEventListener("click", () => {
+                const field = icon.dataset.sort;
+                sortWatchBy(field);
+            });
         });
     }
 });
