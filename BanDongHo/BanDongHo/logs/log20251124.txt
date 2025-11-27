@@ -164,3 +164,63 @@
 2025-11-24 15:09:10.253 +07:00 [INF] Retrieved all invoices.
 2025-11-24 15:09:45.369 +07:00 [INF] Retrieved all invoices.
 2025-11-24 15:10:36.154 +07:00 [INF] Retrieved all invoices.
+2025-11-24 15:49:35.185 +07:00 [INF] Retrieving all watches
+2025-11-24 15:49:38.151 +07:00 [INF] Retrieving all watches
+2025-11-24 16:13:45.325 +07:00 [INF] User lnaq registered successfully: lnaq@gmail.com
+2025-11-24 16:13:56.337 +07:00 [INF] User lnaq logged in successfully: lnaq@gmail.com
+2025-11-24 16:14:02.620 +07:00 [INF] Retrieving all watches
+2025-11-24 16:14:12.762 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-24 16:14:17.700 +07:00 [INF] Retrieving all watches
+2025-11-24 16:14:52.668 +07:00 [WRN] GetById: Watch with name 1 not found
+2025-11-24 16:14:58.535 +07:00 [WRN] GetById: Watch with name 1 not found
+2025-11-24 16:14:58.614 +07:00 [INF] Created new watch 1 with ID "226bf2d4-79ee-48a3-a2c6-c65cd7970d40"
+2025-11-24 16:14:58.660 +07:00 [INF] Retrieving all watches
+2025-11-24 16:14:58.760 +07:00 [INF] Retrieving all watches
+2025-11-24 16:15:00.388 +07:00 [INF] Retrieving all watches
+2025-11-24 16:15:29.355 +07:00 [INF] GetById: Found watch with name 1
+2025-11-24 16:15:29.391 +07:00 [INF] Updated watch 1 with ID "226bf2d4-79ee-48a3-a2c6-c65cd7970d40"
+2025-11-24 16:15:29.404 +07:00 [INF] Retrieving all watches
+2025-11-24 16:15:35.885 +07:00 [INF] Retrieved all invoices.
+2025-11-24 16:16:48.256 +07:00 [INF] Retrieving all watches
+2025-11-24 16:16:59.121 +07:00 [WRN] GetById: Watch with name 2 not found
+2025-11-24 16:16:59.136 +07:00 [INF] Created new watch 2 with ID "de620b04-5595-4f13-a8a5-6bb10dd56936"
+2025-11-24 16:16:59.148 +07:00 [INF] Retrieving all watches
+2025-11-24 16:17:15.068 +07:00 [WRN] GetById: Watch with name 3 not found
+2025-11-24 16:17:15.094 +07:00 [INF] Created new watch 3 with ID "ffa90652-0a3c-4d20-be6b-59ad2e1b7068"
+2025-11-24 16:17:15.118 +07:00 [INF] Retrieving all watches
+2025-11-24 16:17:15.263 +07:00 [INF] Retrieving all watches
+2025-11-24 16:17:15.718 +07:00 [INF] Retrieving all watches
+2025-11-24 16:18:20.289 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1205AT
+2025-11-24 16:18:20.304 +07:00 [INF] Updated watch SRWATCH SG88806.1205AT with ID "0a389b58-efc0-4211-a120-0fffff8a4acb"
+2025-11-24 16:18:20.318 +07:00 [INF] Retrieving all watches
+2025-11-24 16:38:36.795 +07:00 [INF] Retrieving all watches
+2025-11-24 16:39:01.610 +07:00 [INF] Retrieving all watches
+2025-11-24 16:42:00.237 +07:00 [WRN] Login failed for admin@gmail.com: Invalid password
+2025-11-24 16:42:07.975 +07:00 [WRN] Login failed for admin@gmail.com: Invalid password
+2025-11-24 16:42:15.885 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-24 16:42:18.273 +07:00 [INF] Retrieved all invoices.
+2025-11-24 16:42:19.971 +07:00 [INF] Retrieving all watches
+2025-11-24 16:42:47.734 +07:00 [INF] Retrieving all watches
+2025-11-24 16:42:52.205 +07:00 [INF] Retrieving all watches
+2025-11-24 16:42:56.783 +07:00 [INF] Deleted image file: C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\wwwroot\Images\Watches\25b7ebd7-6503-4da0-b952-2e50645e497d.jpg
+2025-11-24 16:42:56.801 +07:00 [INF] Deleted watch with ID "ffa90652-0a3c-4d20-be6b-59ad2e1b7068"
+2025-11-24 16:42:56.808 +07:00 [INF] Retrieving all watches
+2025-11-24 16:42:57.035 +07:00 [INF] Retrieving all watches
+2025-11-24 16:42:58.245 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:01.537 +07:00 [INF] Deleted watch with ID "de620b04-5595-4f13-a8a5-6bb10dd56936"
+2025-11-24 16:43:01.542 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:04.497 +07:00 [INF] Deleted image file: C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\wwwroot\Images\Watches\05e69a9f-4166-44c1-97a4-d891fd259e66.jpg
+2025-11-24 16:43:04.504 +07:00 [INF] Deleted watch with ID "226bf2d4-79ee-48a3-a2c6-c65cd7970d40"
+2025-11-24 16:43:04.514 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:04.766 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:05.996 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:23.016 +07:00 [INF] GetById: Found watch with name SRWATCH SG88806.1205AT
+2025-11-24 16:43:23.028 +07:00 [INF] Updated watch SRWATCH SG88806.1205AT with ID "0a389b58-efc0-4211-a120-0fffff8a4acb"
+2025-11-24 16:43:23.037 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:28.587 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:34.179 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:38.674 +07:00 [INF] Retrieved all invoices.
+2025-11-24 16:43:42.604 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:43.125 +07:00 [INF] Retrieving all watches
+2025-11-24 16:43:43.501 +07:00 [INF] Retrieving all watches
+2025-11-24 16:46:34.707 +07:00 [INF] Retrieving all watches

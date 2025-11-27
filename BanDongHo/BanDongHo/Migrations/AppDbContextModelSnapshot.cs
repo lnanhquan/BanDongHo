@@ -22,6 +22,31 @@ namespace BanDongHo.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("BanDongHo.Models.CartItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<Guid>("WatchId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("WatchId");
+
+                    b.ToTable("CartItems");
+                });
+
             modelBuilder.Entity("BanDongHo.Models.Invoice", b =>
                 {
                     b.Property<Guid>("Id")
@@ -289,6 +314,25 @@ namespace BanDongHo.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("BanDongHo.Models.CartItem", b =>
+                {
+                    b.HasOne("BanDongHo.Models.User", "User")
+                        .WithMany("CartItems")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BanDongHo.Models.Watch", "Watch")
+                        .WithMany()
+                        .HasForeignKey("WatchId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+
+                    b.Navigation("Watch");
+                });
+
             modelBuilder.Entity("BanDongHo.Models.Invoice", b =>
                 {
                     b.HasOne("BanDongHo.Models.User", "User")
@@ -377,6 +421,8 @@ namespace BanDongHo.Migrations
 
             modelBuilder.Entity("BanDongHo.Models.User", b =>
                 {
+                    b.Navigation("CartItems");
+
                     b.Navigation("Invoices");
                 });
 #pragma warning restore 612, 618

@@ -190,6 +190,7 @@ namespace BanDongHo.Services
                     InvoiceId = d.InvoiceId,
                     WatchId = d.WatchId,
                     WatchName = d.Watch?.Name ?? string.Empty,
+                    ImageUrl = d.Watch?.ImageUrl,
                     Quantity = d.Quantity,
                     Price = d.Price
                 }).ToList() ?? new List<InvoiceDetailDTO>()

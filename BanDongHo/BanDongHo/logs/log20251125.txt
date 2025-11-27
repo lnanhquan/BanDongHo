@@ -1,0 +1,253 @@
+2025-11-25 11:16:42.445 +07:00 [INF] Retrieving all watches
+2025-11-25 11:16:42.626 +07:00 [INF] Retrieving all watches
+2025-11-25 11:16:42.885 +07:00 [INF] Retrieving all watches
+2025-11-25 11:16:44.967 +07:00 [INF] Retrieving all watches
+2025-11-25 11:16:46.489 +07:00 [INF] Retrieving all watches
+2025-11-25 11:16:47.534 +07:00 [INF] Retrieving all watches
+2025-11-25 11:16:56.289 +07:00 [INF] Retrieving all watches
+2025-11-25 11:16:58.012 +07:00 [INF] Retrieving all watches
+2025-11-25 11:17:13.238 +07:00 [INF] Retrieving all watches
+2025-11-25 11:20:56.764 +07:00 [INF] Retrieving all watches
+2025-11-25 11:21:01.271 +07:00 [INF] Retrieving all watches
+2025-11-25 11:21:04.537 +07:00 [INF] Retrieving all watches
+2025-11-25 11:21:16.633 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 11:21:18.868 +07:00 [INF] Retrieved all invoices.
+2025-11-25 11:21:23.104 +07:00 [INF] Retrieving all watches
+2025-11-25 11:22:00.338 +07:00 [INF] Retrieved all invoices.
+2025-11-25 11:22:04.252 +07:00 [INF] Retrieving all watches
+2025-11-25 11:23:12.574 +07:00 [INF] Retrieved all invoices.
+2025-11-25 11:24:44.156 +07:00 [INF] Retrieved all invoices.
+2025-11-25 11:27:57.818 +07:00 [INF] Retrieved all invoices.
+2025-11-25 11:29:15.715 +07:00 [INF] Retrieved all invoices.
+2025-11-25 11:31:29.018 +07:00 [INF] Retrieved all invoices.
+2025-11-25 11:32:44.906 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:08:26.155 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 13:08:50.633 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:15:22.232 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 13:15:59.225 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:17:47.206 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 13:18:18.202 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:18:30.127 +07:00 [INF] Retrieving all watches
+2025-11-25 13:18:33.491 +07:00 [INF] Retrieving all watches
+2025-11-25 13:18:41.139 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 13:18:43.330 +07:00 [INF] Retrieving all watches
+2025-11-25 13:18:44.686 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:18:54.774 +07:00 [INF] Retrieving all watches
+2025-11-25 13:20:50.438 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:20:53.274 +07:00 [INF] Retrieving all watches
+2025-11-25 13:22:35.926 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:22:42.435 +07:00 [INF] Retrieving all watches
+2025-11-25 13:22:42.945 +07:00 [INF] Retrieving all watches
+2025-11-25 13:22:43.456 +07:00 [INF] Retrieving all watches
+2025-11-25 13:23:38.819 +07:00 [INF] Retrieving all watches
+2025-11-25 13:23:39.919 +07:00 [INF] Retrieving all watches
+2025-11-25 13:23:41.235 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:23:45.063 +07:00 [INF] Deleted invoice "c8bb335a-8a1f-4f43-a8e3-0ece6c10843d"
+2025-11-25 13:23:49.929 +07:00 [INF] Retrieving all watches
+2025-11-25 13:23:55.439 +07:00 [INF] Retrieving all watches
+2025-11-25 13:24:00.303 +07:00 [INF] Retrieving all watches
+2025-11-25 13:24:56.869 +07:00 [INF] Retrieving all watches
+2025-11-25 13:24:57.886 +07:00 [INF] Retrieving all watches
+2025-11-25 13:24:59.011 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:24:59.948 +07:00 [INF] Retrieving all watches
+2025-11-25 13:25:00.825 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:25:03.094 +07:00 [INF] Retrieving all watches
+2025-11-25 13:25:03.808 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:25:04.699 +07:00 [INF] Retrieving all watches
+2025-11-25 13:28:18.013 +07:00 [INF] Retrieving all watches
+2025-11-25 13:29:51.433 +07:00 [INF] Retrieving all watches
+2025-11-25 13:29:57.506 +07:00 [INF] Retrieving all watches
+2025-11-25 13:32:56.681 +07:00 [INF] Retrieving all watches
+2025-11-25 13:32:57.599 +07:00 [INF] Retrieving all watches
+2025-11-25 13:32:59.018 +07:00 [INF] Retrieving all watches
+2025-11-25 13:33:20.215 +07:00 [INF] Retrieving all watches
+2025-11-25 13:33:24.173 +07:00 [INF] Retrieving all watches
+2025-11-25 13:35:08.707 +07:00 [INF] Retrieving all watches
+2025-11-25 13:36:15.997 +07:00 [INF] Retrieving all watches
+2025-11-25 13:36:22.510 +07:00 [INF] Retrieving all watches
+2025-11-25 13:36:39.434 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 13:37:04.703 +07:00 [INF] Retrieving all watches
+2025-11-25 13:37:06.623 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:37:13.395 +07:00 [INF] Retrieving all watches
+2025-11-25 13:37:16.040 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:38:02.577 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:38:45.102 +07:00 [INF] Retrieving all watches
+2025-11-25 13:38:51.354 +07:00 [INF] Retrieving all watches
+2025-11-25 13:41:11.070 +07:00 [INF] Retrieving all watches
+2025-11-25 13:50:19.652 +07:00 [INF] Retrieving all watches
+2025-11-25 13:50:34.060 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-25 13:50:42.043 +07:00 [INF] Retrieving all watches
+2025-11-25 13:50:44.491 +07:00 [INF] Retrieving all watches
+2025-11-25 13:50:46.821 +07:00 [INF] Retrieving all watches
+2025-11-25 13:50:57.460 +07:00 [INF] Retrieving all watches
+2025-11-25 13:52:33.720 +07:00 [INF] Retrieving all watches
+2025-11-25 13:52:42.840 +07:00 [INF] Retrieving all watches
+2025-11-25 13:54:22.955 +07:00 [INF] Retrieving all watches
+2025-11-25 13:55:15.946 +07:00 [INF] Retrieving all watches
+2025-11-25 13:55:21.427 +07:00 [INF] Retrieving all watches
+2025-11-25 13:55:23.579 +07:00 [INF] Retrieving all watches
+2025-11-25 13:55:31.263 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 13:55:33.336 +07:00 [INF] Retrieving all watches
+2025-11-25 13:55:36.808 +07:00 [INF] Retrieved all invoices.
+2025-11-25 13:55:40.394 +07:00 [INF] Retrieving all watches
+2025-11-25 13:56:35.604 +07:00 [INF] Retrieving all watches
+2025-11-25 13:57:52.093 +07:00 [INF] Retrieving all watches
+2025-11-25 13:58:01.032 +07:00 [INF] Retrieving all watches
+2025-11-25 14:00:11.630 +07:00 [INF] Retrieving all watches
+2025-11-25 14:00:24.092 +07:00 [INF] Retrieving all watches
+2025-11-25 14:00:27.657 +07:00 [INF] Retrieving all watches
+2025-11-25 14:03:22.582 +07:00 [INF] Retrieving all watches
+2025-11-25 14:03:38.742 +07:00 [INF] Retrieving all watches
+2025-11-25 14:05:55.137 +07:00 [INF] Retrieving all watches
+2025-11-25 14:06:28.685 +07:00 [INF] Retrieving all watches
+2025-11-25 14:07:37.067 +07:00 [INF] Retrieving all watches
+2025-11-25 14:08:46.583 +07:00 [INF] Retrieving all watches
+2025-11-25 14:08:56.238 +07:00 [INF] Retrieving all watches
+2025-11-25 14:09:36.694 +07:00 [INF] Retrieving all watches
+2025-11-25 14:10:24.298 +07:00 [INF] Retrieving all watches
+2025-11-25 14:10:37.375 +07:00 [INF] Retrieving all watches
+2025-11-25 14:10:39.553 +07:00 [INF] Retrieving all watches
+2025-11-25 14:13:12.155 +07:00 [INF] Retrieving all watches
+2025-11-25 14:14:30.029 +07:00 [INF] Retrieving all watches
+2025-11-25 14:14:37.241 +07:00 [INF] Retrieving all watches
+2025-11-25 14:17:38.827 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 14:17:51.348 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:17:58.672 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:02.310 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:06.367 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:08.231 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:09.689 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:10.631 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:11.500 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:13.200 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:14.150 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:15.161 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:16.258 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:17.165 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:21.261 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:22.307 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:23.101 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:23.824 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:24.669 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:26.088 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:27.422 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:30.076 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:30.861 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:31.628 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:32.489 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:33.243 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:18:37.362 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:38.883 +07:00 [INF] Retrieving all watches
+2025-11-25 14:18:43.555 +07:00 [INF] Retrieving all watches
+2025-11-25 14:21:25.919 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 14:21:28.747 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:26:15.841 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:28:14.859 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:28:20.578 +07:00 [INF] Retrieved all invoices.
+2025-11-25 14:57:19.795 +07:00 [INF] Retrieving all watches
+2025-11-25 14:57:20.997 +07:00 [INF] Retrieved all invoices.
+2025-11-25 15:27:57.196 +07:00 [INF] Retrieving all watches
+2025-11-25 15:28:12.022 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-25 15:30:48.867 +07:00 [INF] Retrieving all watches
+2025-11-25 15:39:27.356 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-25 15:39:49.076 +07:00 [INF] Retrieved all invoices.
+2025-11-25 15:40:09.338 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:41:21.746 +07:00 [INF] Added new cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-25 15:41:21.773 +07:00 [INF] Saved changes for cart operations.
+2025-11-25 15:41:30.929 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:41:41.711 +07:00 [INF] Retrieving all watches
+2025-11-25 15:41:44.264 +07:00 [INF] Retrieving all watches
+2025-11-25 15:41:51.049 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-25 15:44:00.844 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:54:51.063 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:55:55.328 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:56:06.420 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:56:25.887 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:56:46.513 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:57:16.858 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 15:58:48.497 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:00:34.877 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:01:38.630 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:02:01.166 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:02:18.449 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:02:48.733 +07:00 [INF] Retrieving all watches
+2025-11-25 16:02:49.810 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:03:09.004 +07:00 [INF] Retrieving all watches
+2025-11-25 16:03:17.429 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 16:03:18.355 +07:00 [INF] Retrieved cart for user 8a77aa77-7abf-4241-ba5e-0d22ad107ad1
+2025-11-25 16:03:21.154 +07:00 [INF] Retrieving all watches
+2025-11-25 16:03:29.459 +07:00 [INF] Retrieved cart for user 8a77aa77-7abf-4241-ba5e-0d22ad107ad1
+2025-11-25 16:03:33.194 +07:00 [INF] Retrieving all watches
+2025-11-25 16:03:41.529 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-25 16:03:43.549 +07:00 [INF] Retrieving all watches
+2025-11-25 16:03:46.569 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:05:00.724 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:12:26.397 +07:00 [INF] Added new cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "0a389b58-efc0-4211-a120-0fffff8a4acb"
+2025-11-25 16:12:26.401 +07:00 [INF] Saved changes for cart operations.
+2025-11-25 16:12:30.301 +07:00 [INF] Updated quantity of existing cart item. User 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "0a389b58-efc0-4211-a120-0fffff8a4acb"
+2025-11-25 16:12:30.316 +07:00 [INF] Saved changes for cart operations.
+2025-11-25 16:12:34.341 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:12:53.592 +07:00 [INF] Retrieving all watches
+2025-11-25 16:12:55.723 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:13:01.191 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:13:03.112 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:19:53.750 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:20:16.277 +07:00 [INF] Retrieving all watches
+2025-11-25 16:20:17.706 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:20:54.938 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:23:50.293 +07:00 [INF] Retrieving all watches
+2025-11-25 16:24:02.783 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-25 16:24:04.505 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:34:21.167 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:46:47.382 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:51:38.203 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:51:43.681 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:51:53.113 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:53:20.209 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:55:59.151 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:56:36.406 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:56:55.196 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:57:41.342 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 16:58:19.988 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:00:49.375 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:01:13.097 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:01:30.072 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:01:42.277 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:01:51.518 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:02:17.208 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:02:21.621 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:02:23.988 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:03:17.118 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:04:18.510 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:04:37.454 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:04:41.836 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:04:49.172 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:05:04.171 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:05:15.664 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:05:37.202 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:06:16.688 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:06:30.606 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:06:57.138 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:06:58.857 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:07:10.496 +07:00 [INF] Retrieving all watches
+2025-11-25 17:07:11.647 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:07:24.139 +07:00 [INF] Retrieving all watches
+2025-11-25 17:07:34.734 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-25 17:07:36.575 +07:00 [INF] Retrieved all invoices.
+2025-11-25 17:07:38.988 +07:00 [INF] Retrieving all watches
+2025-11-25 17:07:42.201 +07:00 [INF] Retrieving all watches
+2025-11-25 17:07:43.486 +07:00 [INF] Retrieved cart for user 8a77aa77-7abf-4241-ba5e-0d22ad107ad1
+2025-11-25 17:07:47.988 +07:00 [INF] Retrieving all watches
+2025-11-25 17:07:56.382 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-25 17:07:57.239 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:08:25.023 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:09:08.048 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:09:11.923 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:09:49.115 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:10:01.172 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:10:13.806 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:14:11.445 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:14:17.680 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:15:56.411 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:16:20.942 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-25 17:21:14.407 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de

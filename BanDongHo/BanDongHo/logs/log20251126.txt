@@ -1,0 +1,392 @@
+2025-11-26 08:40:20.418 +07:00 [INF] Retrieving all watches
+2025-11-26 08:40:20.619 +07:00 [INF] Retrieving all watches
+2025-11-26 08:40:20.873 +07:00 [INF] Retrieving all watches
+2025-11-26 08:40:23.296 +07:00 [INF] Retrieving all watches
+2025-11-26 08:40:24.818 +07:00 [INF] Retrieving all watches
+2025-11-26 08:41:06.050 +07:00 [INF] Retrieving all watches
+2025-11-26 08:41:18.884 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-26 08:41:21.121 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:06:35.209 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:06:56.815 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:08:17.024 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:09:14.813 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:10:01.480 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:10:04.017 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:11:36.258 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:12:06.938 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:12:09.100 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:12:53.877 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:13:29.814 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:13:38.808 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:15:26.361 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:16:18.146 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:16:26.876 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:16:38.088 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:16:45.213 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:17:21.425 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:17:38.124 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:17:44.057 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:17:49.389 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:17:55.473 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:18:12.691 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:18:21.936 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:18:36.725 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:18:49.324 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:18:54.414 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:18:59.669 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:19:22.757 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:20:38.474 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:21:39.673 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:21:55.112 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:22:12.342 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:22:31.530 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:23:40.761 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:25:01.755 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:25:04.837 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:25:26.802 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:28:49.885 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:30:30.170 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:32:53.068 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:34:31.419 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:34:35.288 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:34:44.932 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:35:00.388 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:35:11.199 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:38:53.548 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:41:36.625 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:42:04.369 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:44:36.478 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:44:48.110 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:44:53.822 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:48:29.022 +07:00 [INF] Retrieving all watches
+2025-11-26 09:48:39.570 +07:00 [INF] User admin logged in successfully: admin@gmail.com
+2025-11-26 09:48:45.578 +07:00 [INF] Retrieving all watches
+2025-11-26 09:48:53.368 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-26 09:48:54.605 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:49:25.130 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:54:09.898 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:54:40.410 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:55:05.624 +07:00 [WRN] Update failed. Cart item not found for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "00000000-0000-0000-0000-000000000000"
+2025-11-26 09:55:05.658 +07:00 [ERR] Error updating cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de: Cart item not found.
+2025-11-26 09:55:05.690 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cart item not found.
+   at BanDongHo.Services.CartItemService.UpdateAsync(String userId, CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Services\CartItemService.cs:line 90
+   at BanDongHo.Controllers.CartItemsController.UpdateCartItem(CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Controllers\CartItemsController.cs:line 55
+   at lambda_method250(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-26 09:55:16.546 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:55:18.910 +07:00 [WRN] Update failed. Cart item not found for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "00000000-0000-0000-0000-000000000000"
+2025-11-26 09:55:18.931 +07:00 [ERR] Error updating cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de: Cart item not found.
+2025-11-26 09:55:18.958 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cart item not found.
+   at BanDongHo.Services.CartItemService.UpdateAsync(String userId, CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Services\CartItemService.cs:line 90
+   at BanDongHo.Controllers.CartItemsController.UpdateCartItem(CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Controllers\CartItemsController.cs:line 55
+   at lambda_method250(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-26 09:55:33.975 +07:00 [WRN] Update failed. Cart item not found for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "00000000-0000-0000-0000-000000000000"
+2025-11-26 09:55:33.991 +07:00 [ERR] Error updating cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de: Cart item not found.
+2025-11-26 09:55:34.018 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cart item not found.
+   at BanDongHo.Services.CartItemService.UpdateAsync(String userId, CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Services\CartItemService.cs:line 90
+   at BanDongHo.Controllers.CartItemsController.UpdateCartItem(CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Controllers\CartItemsController.cs:line 55
+   at lambda_method250(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-26 09:55:34.396 +07:00 [WRN] Update failed. Cart item not found for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "00000000-0000-0000-0000-000000000000"
+2025-11-26 09:55:34.412 +07:00 [ERR] Error updating cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de: Cart item not found.
+2025-11-26 09:55:34.438 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cart item not found.
+   at BanDongHo.Services.CartItemService.UpdateAsync(String userId, CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Services\CartItemService.cs:line 90
+   at BanDongHo.Controllers.CartItemsController.UpdateCartItem(CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Controllers\CartItemsController.cs:line 55
+   at lambda_method250(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-26 09:55:36.221 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 09:55:41.309 +07:00 [WRN] Update failed. Cart item not found for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "00000000-0000-0000-0000-000000000000"
+2025-11-26 09:55:41.322 +07:00 [ERR] Error updating cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de: Cart item not found.
+2025-11-26 09:55:41.347 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cart item not found.
+   at BanDongHo.Services.CartItemService.UpdateAsync(String userId, CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Services\CartItemService.cs:line 90
+   at BanDongHo.Controllers.CartItemsController.UpdateCartItem(CartItemDTO dto) in C:\Users\Admin\Documents\GitHub\BanDongHo\BanDongHo\BanDongHo\Controllers\CartItemsController.cs:line 55
+   at lambda_method250(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-26 09:56:40.375 +07:00 [INF] Retrieving all watches
+2025-11-26 10:01:40.801 +07:00 [INF] Retrieving all watches
+2025-11-26 10:01:49.666 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-26 10:01:50.844 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:01:55.087 +07:00 [INF] Updated cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "0a389b58-efc0-4211-a120-0fffff8a4acb"
+2025-11-26 10:01:55.153 +07:00 [INF] Saved changes for cart operations.
+2025-11-26 10:02:13.045 +07:00 [INF] Updated cart item for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de, watch "0a389b58-efc0-4211-a120-0fffff8a4acb"
+2025-11-26 10:02:13.048 +07:00 [INF] Saved changes for cart operations.
+2025-11-26 10:07:23.485 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:07:32.919 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:07:59.657 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:08:01.482 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:08:37.745 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:08:52.894 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:16:01.308 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:19:33.362 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:19:47.446 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:20:01.948 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:20:59.712 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:23:56.767 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:24:08.813 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:39:45.945 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:40:22.302 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:40:31.932 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:46:37.996 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:46:44.653 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:49:48.834 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:50:28.255 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:53:07.237 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:53:19.454 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:54:05.204 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:54:46.631 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:55:35.725 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 10:55:41.098 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 11:08:42.732 +07:00 [INF] Retrieving all watches
+2025-11-26 11:08:53.478 +07:00 [INF] Retrieving all watches
+2025-11-26 11:10:58.360 +07:00 [INF] Retrieving all watches
+2025-11-26 11:12:02.600 +07:00 [INF] Retrieving all watches
+2025-11-26 11:12:23.614 +07:00 [INF] Retrieving all watches
+2025-11-26 11:12:32.715 +07:00 [INF] Retrieving all watches
+2025-11-26 11:12:38.029 +07:00 [INF] Retrieving all watches
+2025-11-26 11:12:48.918 +07:00 [INF] Retrieving all watches
+2025-11-26 11:12:53.909 +07:00 [INF] Retrieving all watches
+2025-11-26 11:13:10.026 +07:00 [INF] Retrieving all watches
+2025-11-26 11:13:18.679 +07:00 [INF] Retrieving all watches
+2025-11-26 13:27:57.711 +07:00 [INF] Retrieving all watches
+2025-11-26 13:28:43.995 +07:00 [INF] Retrieving all watches
+2025-11-26 13:30:26.136 +07:00 [INF] Retrieving all watches
+2025-11-26 13:31:40.172 +07:00 [INF] Retrieving all watches
+2025-11-26 13:33:29.320 +07:00 [INF] Retrieving all watches
+2025-11-26 13:35:33.820 +07:00 [INF] Retrieving all watches
+2025-11-26 13:36:17.361 +07:00 [INF] Retrieving all watches
+2025-11-26 13:38:16.569 +07:00 [INF] Retrieving all watches
+2025-11-26 13:38:29.673 +07:00 [INF] Retrieving all watches
+2025-11-26 13:38:46.006 +07:00 [INF] Retrieving all watches
+2025-11-26 13:40:28.038 +07:00 [INF] Retrieving all watches
+2025-11-26 13:42:43.275 +07:00 [INF] Retrieving all watches
+2025-11-26 13:42:58.458 +07:00 [INF] Retrieving all watches
+2025-11-26 13:43:07.096 +07:00 [INF] Retrieving all watches
+2025-11-26 13:43:24.585 +07:00 [INF] Retrieving all watches
+2025-11-26 13:43:27.649 +07:00 [INF] Retrieving all watches
+2025-11-26 13:44:50.912 +07:00 [INF] Retrieving all watches
+2025-11-26 13:46:17.749 +07:00 [INF] Retrieving all watches
+2025-11-26 13:46:35.192 +07:00 [INF] Retrieving all watches
+2025-11-26 13:47:18.076 +07:00 [INF] Retrieving all watches
+2025-11-26 13:47:27.311 +07:00 [INF] Retrieving all watches
+2025-11-26 13:48:09.219 +07:00 [INF] Retrieving all watches
+2025-11-26 13:50:38.325 +07:00 [INF] Retrieving all watches
+2025-11-26 13:50:44.441 +07:00 [INF] Retrieving all watches
+2025-11-26 13:50:45.778 +07:00 [INF] Retrieving all watches
+2025-11-26 13:50:47.877 +07:00 [INF] Retrieving all watches
+2025-11-26 13:56:36.945 +07:00 [INF] Retrieving all watches
+2025-11-26 13:58:55.881 +07:00 [INF] Retrieving all watches
+2025-11-26 13:59:11.326 +07:00 [INF] Retrieving all watches
+2025-11-26 13:59:13.761 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:01:30.409 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:08:16.381 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:11:35.245 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:22:20.761 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:22:46.281 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:23:26.208 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:26:02.589 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:26:09.590 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:26:10.097 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:26:53.679 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:27:22.509 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:27:35.562 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:27:54.417 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:28:45.192 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:29:09.752 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:29:54.920 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:30:01.558 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:30:09.668 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:30:36.740 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:33:50.632 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:35:19.180 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 14:35:25.923 +07:00 [INF] Retrieving all watches
+2025-11-26 14:35:33.229 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:36:40.071 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:36:53.667 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:37:16.802 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:37:28.518 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:39:07.656 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:39:32.121 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:41:25.985 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:42:45.996 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:44:04.151 +07:00 [INF] GetById: Found watch SRWATCH SL1610.1401TE with ID "1d564372-c6fb-40f7-b148-27f7a454b860"
+2025-11-26 14:44:08.964 +07:00 [INF] Retrieving all watches
+2025-11-26 14:44:09.998 +07:00 [INF] GetById: Found watch SRWATCH SL7004.1202 with ID "3f070cb9-2ccc-4bbd-8be2-268c8076e752"
+2025-11-26 14:44:36.129 +07:00 [INF] Retrieving all watches
+2025-11-26 14:44:40.867 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:47:40.540 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:48:18.903 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:48:44.432 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:48:58.800 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:49:14.166 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:49:42.513 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:50:07.040 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:52:30.099 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:52:36.031 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:53:12.587 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:56:01.156 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:56:38.272 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:57:14.549 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:57:18.676 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1302TE with ID "817417db-9730-4782-bc5e-ff93c965e3e4"
+2025-11-26 14:57:38.096 +07:00 [INF] Retrieving all watches
+2025-11-26 14:57:51.645 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 14:59:06.135 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 14:59:33.306 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:00:28.123 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:01:10.023 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:02:43.582 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:02:58.751 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:03:24.887 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:04:00.483 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:05:16.679 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:05:25.965 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:07:02.802 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:25:23.792 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:26:19.313 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:30:54.399 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:31:30.545 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:31:45.199 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:31:54.396 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:31:56.852 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:32:12.040 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:33:04.359 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:36:09.147 +07:00 [INF] GetById: Found watch SRWATCH SL1611.1402TE with ID "2d57bc97-b369-4939-844e-5e9997df7d0c"
+2025-11-26 15:47:29.208 +07:00 [INF] Retrieving all watches
+2025-11-26 15:47:30.187 +07:00 [INF] GetById: Found watch SRWATCH SG88806.1205AT with ID "0a389b58-efc0-4211-a120-0fffff8a4acb"
+2025-11-26 15:47:31.151 +07:00 [INF] Retrieving all watches
+2025-11-26 15:47:53.297 +07:00 [INF] Retrieving all watches
+2025-11-26 15:47:55.518 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 15:50:42.302 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 15:51:21.879 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 15:53:30.708 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 15:54:34.266 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:07:04.003 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:07:26.764 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:08:42.133 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:08:56.545 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:09:16.841 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:09:24.743 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:09:57.442 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:10:38.947 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:11:13.422 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:11:25.815 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:12:58.929 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:13:54.610 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:15:26.497 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:15:40.504 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:16:01.131 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:16:07.367 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:51:00.049 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:52:03.257 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:52:55.766 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:52:59.815 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:53:29.862 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:53:55.661 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:55:07.792 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:55:22.681 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:56:04.765 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:56:14.667 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 16:56:18.998 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:04:28.017 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:04:48.110 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:05:45.083 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:06:02.683 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:06:39.493 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:07:09.738 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:07:18.495 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:07:29.984 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:11:43.679 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:12:33.837 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:12:56.208 +07:00 [INF] User user logged in successfully: user@gmail.com
+2025-11-26 17:12:57.539 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 17:16:29.016 +07:00 [INF] Retrieving all watches
+2025-11-26 17:16:29.667 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:16:32.187 +07:00 [INF] Retrieved cart for user 0e3a0d01-09cc-4d4c-9cf9-5adc33f4e3de
+2025-11-26 17:16:35.041 +07:00 [INF] Retrieving all watches
+2025-11-26 17:16:35.881 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:16:52.412 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:17:27.523 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:18:58.421 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:19:01.647 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:19:03.463 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:19:27.879 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:19:49.848 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:20:05.090 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:20:10.251 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:20:15.297 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:20:23.666 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:21:37.066 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:21:40.231 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:24:51.225 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:24:55.653 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"
+2025-11-26 17:26:32.101 +07:00 [INF] GetById: Found watch SRWATCH SG88805.1102AT with ID "4ff97927-e0cb-418f-8b60-0e40523c4ffd"

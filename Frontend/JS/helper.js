@@ -15,6 +15,32 @@ const getFullImageUrl = (relativeUrl) => {
     return `${fullServerUrl}${relativeUrl.startsWith('/') ? '' : '/'}${relativeUrl.trimStart('/')}`;
 };
 
+function updateUIAfterLogin(isLoggedIn) {
+    const btnLogin = document.getElementById("btnLogin");
+    const btnLogout = document.getElementById("btnLogout");
+    const managementDropdown = document.getElementById("managementDropdown");
+    const user = JSON.parse(localStorage.getItem("user"));
+
+    if (isLoggedIn) {
+        btnLogin.classList.add("d-none");
+        btnLogout.classList.remove("d-none");
+        userGreeting.textContent = `Welcome, ${user.username}!`;
+        userGreeting.classList.remove("d-none");
+    } else {
+        btnLogin.classList.remove("d-none");
+        btnLogout.classList.add("d-none");
+        userGreeting.textContent = ``;
+        userGreeting.classList.add("d-none");
+    }
+
+    if (user && user.roles && user.roles.includes("Admin")) {
+        managementDropdown.classList.remove("d-none");
+    }
+    else {
+        managementDropdown.classList.add("d-none");
+    }
+}
+
 function createPagination({ totalItems, pageSize, currentPage, containerId, onPageClick }) {
     const container = document.getElementById(containerId);
     if (!container) return;

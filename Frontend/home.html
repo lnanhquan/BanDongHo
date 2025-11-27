@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Watch API</title>
+    <title>All watch</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -20,21 +20,69 @@
         body {
             display: flex;
             flex-direction: column;
-            min-height: 100vh;
+            height: 100vh;
+            overflow: hidden;
+            padding-top: 25px;
         }
 
         main {
-            flex: 1 0 auto;
+            flex: 1;
+            padding: 2rem 1rem 1rem;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
+            overflow-y: auto;
+            overflow-x: hidden;
         }
 
         .container {
-            flex: 1;
+            width: 100%;
+            max-width: 1200px;
+            padding: 0 15px 2rem 15px;
         }
 
         footer {
             flex-shrink: 0;
+            height: 40px;
+            align-content: center;
+            margin-top: auto;
+        }
+        .card-watch {
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, background-color 0.3s ease;
+            width: 280px;
+            height: 320px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-watch:hover {
+            transform: scale(1.05);
+            box-shadow: 0 1rem 3rem rgba(0,0,0,0.175);
+            border: 2px solid #0d6efd;
+            z-index: 10;
+        }
+        .card-watch:hover .card-body {
+            background-color: rgba(0,123,255,0.05);
+        }
+        .card-watch img {
+            width: 230px;
+            height: 230px;
+            object-fit: cover;
+        }
+        .card-watch .card-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            padding: 0.75rem;
+            width: 280px;
+        }
+        .card-watch .card-title {
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+        .card-watch .card-text {
+            font-size: 0.85rem;
         }
     </style>
 </head>
@@ -42,66 +90,24 @@
 <body>
     <div id="header"></div>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            <div class="container">
+    <main role="main">
+        <div class="container">
+            <h3 id="homeTitle" class="text-center mt-3 pb-2">All Watches</h3>
+            <div>
                 <div id="watchList" class="row">Loading...</div>
             </div>
             <div id="paginationHome" class="mt-3"></div>
-        </main>
-    </div>
+        </div>
+    </main>
 
     <footer class="border-top footer text-muted">
-        <div class="container text-center">
+        <div class="text-center">
             &copy; 2025 - Lê Ngọc Anh Quân
         </div>
     </footer>
 
-    <!-- Pop up login -->
-    <div class="modal fade" id="loginModal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header justify-content-center">
-                    <h2 class="modal-title">Login</h2>
-                </div>
-                <div class="modal-body">
-                    <form id="loginForm">
-                        <input type="email" id="loginEmail" class="form-control mb-2" placeholder="Email" autocomplete="email"></input>
-                        <input type="password" id="loginPassword" class="form-control mb-2" placeholder="Password" autocomplete="current-password">
-                    </form>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn btn-primary me-2" onclick="login()">Login</button>
-                    <button type="button" class="btn btn-success" onclick="switchToRegister()">Register</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Pop up register -->
-    <div class="modal fade" id="registerModal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header justify-content-center">
-                    <h2 class="modal-title">Register</h2>
-                </div>
-                <div class="modal-body">
-                    <form id="registerForm">
-                        <input type="email" id="registerEmail" class="form-control mb-2" placeholder="Email">
-                        <input type="text" id="registerUsername" class="form-control mb-2" placeholder="Username" autocomplete="username">
-                        <input type="password" id="registerPassword" class="form-control mb-2" placeholder="Password" autocomplete="current-password">
-                    </form>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn btn-success me-2" onclick="register()">Register</button>
-                    <button type="button" class="btn btn-secondary" onclick="switchToLogin()">Back to Login</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="./JS/helper.js"></script>
     <script src="./JS/header.js"></script>
+    <script src="./JS/helper.js"></script>
     <script src="./JS/api.js"></script>
     <script src="./JS/auth.js"></script>
     <script src="./JS/home.js"></script>

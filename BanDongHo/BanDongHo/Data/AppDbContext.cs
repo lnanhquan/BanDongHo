@@ -13,5 +13,6 @@ namespace BanDongHo.Data
         public DbSet<Watch> Watches { get; set; } = null!;
         public DbSet<Invoice> Invoices { get; set; } = null!;
         public DbSet<InvoiceDetail> InvoiceDetails { get; set; } = null!;
+        public DbSet<CartItem> CartItems { get; set; } = null;
     }
 }

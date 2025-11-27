@@ -135,6 +135,7 @@ async function loadWatchOptions(select) {
             const option = document.createElement("option");
             option.value = w.id;
             option.textContent = w.name;
+            option.dataset.imageUrl =  getFullImageUrl(w.imageUrl);
             select.appendChild(option);
         });
     } catch (error) {
@@ -206,6 +207,9 @@ function openDetailInvoiceModal(invoice) {
 
     const detailsHTML = invoice.details.map(d => `
         <tr>
+            <td>
+                <img src="${getFullImageUrl(d.imageUrl)}" style="height:50px; margin-right:5px;" alt="Watch Image">
+            </td>
             <td>${d.watchName}</td>
             <td>${d.quantity}</td>
             <td>${d.price.toLocaleString()} VND</td>
@@ -219,11 +223,12 @@ function openDetailInvoiceModal(invoice) {
     viewInvoiceContainer.innerHTML = `
         <p>Invoice ID: ${invoice.id}</p>
         <p>User: ${invoice.userEmail}</p>
-        <p>Created At: ${vnTime.toLocaleString("vi-VN", { hour12: false })}</p>
+        <p>Created at: ${vnTime.toLocaleString("vi-VN", { hour12: false })}</p>
 
         <table class="table table-bordered">
             <thead class="text-center align-middle">
                 <tr>
+                    <th>Image</th>
                     <th>Watch</th>
                     <th>Quantity</th>
                     <th>Price</th>
@@ -346,8 +351,7 @@ async function deleteInvoice(id, btnDeleteInvoice) {
         try {
             await invoiceAPI.delete(id);
 
-            const row = btnDeleteInvoice.closest('tr');
-            if (row) row.remove();
+            await getInvoiceTable();
 
             Swal.fire({
                 icon: "success",
@@ -442,8 +446,8 @@ function sortInvoiceBy(field)
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const currentPage = window.location.pathname;
-    if (currentPage.endsWith("invoice.html")) {
+    const pathName = window.location.pathname;
+    if (pathName.endsWith("invoice.html")) {
         getInvoiceTable();
         invoiceModal = new bootstrap.Modal(document.getElementById("invoiceModal"));
         viewInvoiceModal = new bootstrap.Modal(document.getElementById("viewInvoiceModal"));

@@ -8,7 +8,7 @@ namespace BanDongHo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    [Authorize]
     public class InvoicesController : ControllerBase
     {
         private readonly IInvoiceService _service;
@@ -55,6 +55,7 @@ namespace BanDongHo.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(Guid id, [FromBody] InvoiceDTO dto)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -78,6 +79,7 @@ namespace BanDongHo.Controllers
 
         // DELETE: api/Invoice/{id}
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(Guid id)
         {
             var deleted = await _service.DeleteAsync(id);

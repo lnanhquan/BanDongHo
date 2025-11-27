@@ -1,13 +1,31 @@
-let registerModal = null;
-let loginModal = null;
 let homeCurrentPage = 1;
-let homeRowsPerPage = 8; 
-let homeData = []; 
+let homeRowsPerPage = 8;
+let homeData = [];
+
+const params = new URLSearchParams(window.location.search);
+const category = params.get("category") || "all";
+
+const categoryTitle = {
+    all: "All Watches",
+    men: "Men Watches",
+    women: "Women Watches",
+    couple: "Couple Watches"
+};
 
 async function loadWatches() {
     try {
         const response = await api.get("/Watches");
         homeData = response.data;
+
+        if (category && category.toLocaleLowerCase() !== "all") 
+        {
+            homeData = homeData.filter(w => w.category?.toLowerCase() === category.toLowerCase());
+        }
+
+        const titleElement = document.getElementById("homeTitle");
+        if (titleElement) {
+            titleElement.textContent = categoryTitle[category] || "All Watches";
+        }
 
         renderHomePage(homeCurrentPage);
     } catch (error) {
@@ -26,17 +44,38 @@ function renderHomePage(page) {
     pageData.forEach(w => {
         const imageUrl = getFullImageUrl(w.imageUrl);
 
-        watchList.innerHTML += `
-            <div class="col-md-3 mb-4">
-                <div class="card shadow-lg">
-                    <img src="${imageUrl}" class="card-img-top" alt="${w.name}" style="height: 270px; width: 270px;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">${w.name}</h5>
-                        <p class="card-text text-danger fs-6 fw-bold text-center">${w.price.toLocaleString()} VND</p>
-                    </div>
-                </div>
-            </div>
-        `;
+        const col = document.createElement("div");
+        col.className = "col-md-3 mb-4";
+
+        const card = document.createElement("div");
+        card.className = "card shadow card-watch align-items-center";
+
+        card.addEventListener("click", () => {
+            window.location.href = `watchDetail.html?id=${w.id}`;
+        });
+
+        const img = document.createElement("img");
+        img.src = imageUrl;
+        img.alt = w.name;
+        img.className = "card-img-top";
+
+        const cardBody = document.createElement("div");
+        cardBody.className = "card-body";
+
+        const title = document.createElement("h5");
+        title.className = "card-title text-center";
+        title.textContent = w.name;
+
+        const price = document.createElement("p");
+        price.className = "card-text text-danger fs-6 fw-bold text-center";
+        price.textContent = `${w.price.toLocaleString()} VND`;
+
+        cardBody.appendChild(title);
+        cardBody.appendChild(price);
+        card.appendChild(img);
+        card.appendChild(cardBody);
+        col.appendChild(card);
+        watchList.appendChild(col);
     });
 
     createPagination({
@@ -51,40 +90,10 @@ function renderHomePage(page) {
     });
 }
 
-function updateUIAfterLogin(isLoggedIn) {
-    const btnLogin = document.getElementById("btnLogin");
-    const btnLogout = document.getElementById("btnLogout");
-    const managementDropdown = document.getElementById("managementDropdown");
-    const user = JSON.parse(localStorage.getItem("user"));
-
-    if (isLoggedIn) {
-        btnLogin.classList.add("d-none");
-        btnLogout.classList.remove("d-none");
-        userGreeting.textContent = `Welcome, ${user.username}!`;
-        userGreeting.classList.remove("d-none");
-    } else {
-        btnLogin.classList.remove("d-none");
-        btnLogout.classList.add("d-none");
-        userGreeting.textContent = ``;
-        userGreeting.classList.add("d-none");
-    }
-
-    if (user && user.roles && user.roles.includes("Admin"))
-    {
-        managementDropdown.classList.remove("d-none");
-    }
-    else
-    {
-        managementDropdown.classList.add("d-none");
-    }
-}
-
 document.addEventListener("DOMContentLoaded", () => {
     const pathName = window.location.pathname;
     if (pathName.endsWith("home.html")) {
         loadWatches();
-        loginModal = new bootstrap.Modal(document.getElementById("loginModal"));
-        registerModal = new bootstrap.Modal(document.getElementById("registerModal"));
         const user = JSON.parse(localStorage.getItem("user"));
         updateUIAfterLogin(!!user);
     }
