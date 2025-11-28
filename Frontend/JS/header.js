@@ -3,13 +3,11 @@ let registerModal;
 
 function renderHeader() {
     const headerHTML = `
-    <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3 fixed-top">
-        <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3 fixed-top">
+            <div class="container-fluid d-flex align-items-center">
 
-            <a class="navbar-brand">Watches</a>
-
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
+                <!-- Menu trái -->
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="home.html">Home</a>
                     </li>
@@ -22,40 +20,33 @@ function renderHeader() {
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="home.html?category=couple">Couple</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a id="managementDropdown" class="nav-link dropdown-toggle text-dark d-none" href="#"
-                           role="button" data-bs-toggle="dropdown" aria-expanded="false">Management</a>
-                        <ul class="dropdown-menu" aria-labelledby="managementDropdown">
-                            <li><a class="dropdown-item" href="./userManagement.html">Users</a></li>
-                            <li><a class="dropdown-item" href="./watch.html">Watches</a></li>
-                            <li><a class="dropdown-item" href="./invoice.html">Invoices</a></li>
-                        </ul>
-                    </li>
                 </ul>
+
+                <!-- Thanh tìm kiếm căn giữa -->
+                <form id="searchForm" class="d-flex mx-auto position-relative">
+                    <input id="searchInput" class="form-control pe-5" type="search" placeholder="Search watches..." aria-label="Search" style="width: 450px;">
+                    <i class="bi bi-search position-absolute" style="right: 10px; top: 50%; transform: translateY(-50%); color: #6c757d;"></i>
+                </form>
+
+                <!-- Nút phải -->
+                <div class="d-flex align-items-center ms-auto">
+                    <span id="userGreeting" class="me-2 d-none"></span>
+
+                    <button id="btnOrder" class="btn btn-outline-secondary position-relative me-2">
+                        <i class="bi bi-receipt"></i>
+                    </button>
+
+                    <button id="btnCart" class="btn btn-outline-success position-relative me-2">
+                        <i class="bi bi-cart3"></i>
+                        <span id="cartCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                    </button>
+
+                    <button id="btnLogin" class="btn btn-outline-primary me-2">Login</button>
+                    <button id="btnLogout" class="btn btn-outline-danger d-none">Logout</button>
+                </div>
+
             </div>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="d-flex ms-auto align-items-center">
-                <span id="userGreeting" class="me-2 d-none"></span>
-                <button id="btnOrder" class="btn btn-outline-secondary position-relative me-2">
-                    <i class="bi bi-receipt"></i>
-                </button>
-                <button id="btnCart" class="btn btn-outline-success position-relative me-2">
-                    <i class="bi bi-cart3"></i>
-                    <span id="cartCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                        0
-                    </span>
-                </button>
-                <button id="btnLogin" class="btn btn-outline-primary me-2" style="margin-left: 5px;">Login</button>
-                <button id="btnLogout" class="btn btn-outline-danger d-none" style="margin-left: 5px;">Logout</button>
-            </div>
-
-        </div>
-    </nav>
+        </nav>
 
     <!-- Pop up login -->
     <div class="modal fade" id="loginModal" tabindex="-1">
@@ -137,6 +128,47 @@ function renderHeader() {
     loadCartCount();
 }
 
+function renderSidebar() {
+    if (document.getElementById("adminSidebar")) return;
+    const sidebarHTML = `
+    <div id="adminSidebar" class="admin-sidebar">
+        <div class="sidebar-header">
+            <button id="toggleSidebar" class="toggle-btn border-0"><i class="bi bi-list"></i></button>
+            <h5>Management</h5>
+        </div>
+        <ul>
+            <li><a href="userManagement.html"><i class="bi bi-person me-2"></i><span>Users</span></a></li>
+            <li><a href="watch.html"><i class="bi bi-watch me-2"></i><span>Watches</span></a></li>
+            <li><a href="invoice.html"><i class="bi bi-receipt me-2"></i><span>Invoices</span></a></li>
+        </ul>
+    </div>
+    `;
+
+    document.body.insertAdjacentHTML("afterbegin", sidebarHTML);
+    document.body.classList.add("has-sidebar");
+
+    const toggleBtn = document.getElementById("toggleSidebar");
+    const sidebar = document.getElementById("adminSidebar");
+
+    const isCollapsed = localStorage.getItem("sidebarCollapsed") === "true";
+    if (isCollapsed) {
+        sidebar.classList.add("collapsed");
+    }
+
+    toggleBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("collapsed");
+        localStorage.setItem("sidebarCollapsed", sidebar.classList.contains("collapsed"));
+    });
+}
+
+function removeSidebar() {
+    const sidebar = document.getElementById("adminSidebar");
+    if (sidebar) {
+        sidebar.remove();
+    }
+    document.body.classList.remove("has-sidebar");
+}
+
 async function loadCartCount() {
     const user = JSON.parse(localStorage.getItem("user"));
     if (!user) {
@@ -155,11 +187,35 @@ async function loadCartCount() {
     }
 }
 
+function setupSearch() {
+    const searchForm = document.getElementById("searchForm");
+    const searchInput = document.getElementById("searchInput");
+
+    searchForm.addEventListener("submit", function(e) {
+        e.preventDefault(); // không submit form
+
+        const query = searchInput.value.trim();
+        if (!query) return;
+
+        // Nếu đang ở home.html thì chỉ cần lọc và render lại
+        if (window.location.pathname.endsWith("home.html"))
+        {
+            renderSearchResults(query);
+        } 
+        else 
+        {
+            // Nếu ở trang khác, redirect về home.html kèm query
+            window.location.href = `home.html?search=${encodeURIComponent(query)}`;
+        }
+    });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const headerContainer = document.getElementById("header");
 
     if (headerContainer && !headerContainer.querySelector("nav")) {
         renderHeader();
+        setupSearch();
         loginModal = new bootstrap.Modal(document.getElementById("loginModal"));
         registerModal = new bootstrap.Modal(document.getElementById("registerModal"));
     }

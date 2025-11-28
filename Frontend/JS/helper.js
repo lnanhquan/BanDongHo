@@ -34,10 +34,7 @@ function updateUIAfterLogin(isLoggedIn) {
     }
 
     if (user && user.roles && user.roles.includes("Admin")) {
-        managementDropdown.classList.remove("d-none");
-    }
-    else {
-        managementDropdown.classList.add("d-none");
+        renderSidebar();
     }
 }
 

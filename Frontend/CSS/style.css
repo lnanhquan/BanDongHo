@@ -1,0 +1,146 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 0px;
+}
+
+footer {
+    flex-shrink: 0;
+    height: 40px;
+    align-content: center;
+    margin-top: auto;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 4px; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0d6efd; 
+    background-color: rgba(13, 110, 253, 0.1); 
+}
+
+.admin-sidebar { 
+    width: 250px; 
+    position: fixed; 
+    top: 57px;
+    bottom: 40px; 
+    left: 0;
+    background-color: #fff; 
+    color: #333; 
+    z-index: 1050; 
+    display: flex; 
+    flex-direction: column;
+    border-right: 1px solid #dee2e6;
+    border-radius: 0 8px 8px 0; 
+    box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+    transition: width 0.3s ease-in-out; 
+    overflow: hidden;
+}
+
+.admin-sidebar .sidebar-header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.toggle-btn:hover {
+    color: #0d6efd;
+    transform: scale(1.4);
+}
+
+.admin-sidebar h5 { 
+    padding: 10px 0px;
+    margin-bottom: 0; 
+    font-weight: 600;
+    font-size: 1.1rem;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.admin-sidebar.collapsed {
+    width: 60px;
+}
+
+.admin-sidebar ul li a span {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.admin-sidebar.collapsed ul li a span {
+    opacity: 0;
+    visibility: hidden;
+    transition-delay: 0.6s;
+}
+
+.admin-sidebar.collapsed h5 {
+    opacity: 0;
+    visibility: hidden;
+    transition-delay: 0.6s;
+}
+
+.admin-sidebar ul { 
+    list-style: none; 
+    padding-left: 0; 
+    margin: 0; 
+    flex: 1; 
+}
+
+.admin-sidebar li a { 
+    display: flex; 
+    align-items: center; 
+    color: #333; 
+    padding: 12px 20px; 
+    text-decoration: none; 
+    transition: all 0.25s ease;
+}
+
+.admin-sidebar li a:hover { 
+    background-color: #e7f1ff;
+}
+
+.sort-icon {
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.25s ease;
+    opacity: 0.6;
+}
+
+.sort-icon:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}

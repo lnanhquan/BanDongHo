@@ -16,7 +16,7 @@ async function loadWatchDetail() {
             <div class="card shadow-lg watch-card">
 
                 <div class="card-header text-center align-items-center">
-                    <h3 class="mb-0">Watch details</h3>
+                    <h2 class="text-center fw-semibold align-items-center m-0">Watch details</h2>
                 </div>
 
 

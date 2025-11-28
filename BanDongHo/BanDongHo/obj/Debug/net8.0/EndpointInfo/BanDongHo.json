@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "TodoListAPI",
+    "title": "WatchAPI",
     "version": "v1"
   },
   "paths": {

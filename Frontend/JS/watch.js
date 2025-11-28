@@ -54,8 +54,8 @@ function renderWatchPage(page) {
             const img = document.createElement("img"); 
             img.src = getFullImageUrl(w.imageUrl);
             img.alt = w.name;
-            img.style.width = "190px";
-            img.style.height = "190px";
+            img.style.width = "180px";
+            img.style.height = "180px";
             tdImage.appendChild(img);
 
             const tdName = document.createElement("td");

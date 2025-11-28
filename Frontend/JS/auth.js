@@ -191,6 +191,7 @@ async function logout() {
     {
         localStorage.removeItem("user");
         updateUIAfterLogin(false);
+        removeSidebar();
         window.location.href = "home.html";
     }
 }
